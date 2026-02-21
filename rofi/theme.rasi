@@ -1,0 +1,140 @@
+* {
+    background: #1e1e2e;
+    background-alt: #313244;
+    foreground: #cdd6f4;
+    selected: #89b4fa;
+    active: #a6e3a1;
+    urgent: #f38ba8;
+    border: #89b4fa;
+}
+
+window {
+    transparency: "real";
+    location: center;
+    anchor: center;
+    fullscreen: false;
+    width: 900px;  /* Increased width for two columns */
+    height: 500px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: @border;
+    background-color: @background;
+}
+
+mainbox {
+    background-color: @background;
+    children: [ horibox ];  /* Changed to horizontal box */
+    spacing: 0px;
+    padding: 0px;
+}
+
+/* Horizontal container for two columns */
+horibox {
+    background-color: transparent;
+    children: [ image-container, vertbox ];
+    orientation: horizontal;
+    spacing: 0px;
+}
+
+/* Left side - Image container */
+image-container {
+    background-color: @background-alt;
+    background-image: url("~/Downloads/438463.png",height);  /* Put your image path here */
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px;
+}
+
+/* Right side - Search interface */
+vertbox {
+    background-color: @background;
+    children: [ inputbar, listview, mode-switcher ];
+    spacing: 10px;
+    padding: 10px;
+    expand: true;
+}
+
+inputbar {
+    background-color: @background-alt;
+    text-color: @foreground;
+    border-radius: 5px;
+    padding: 8px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color: @selected;
+    padding: 0px 10px 0px 0px;
+}
+
+entry {
+    background-color: transparent;
+    text-color: @foreground;
+    placeholder: "Search...";
+    placeholder-color: #6c7086;
+}
+
+listview {
+    background-color: transparent;
+    columns: 1;
+    lines: 8;
+    spacing: 5px;
+    cycle: true;
+    dynamic: true;
+    layout: vertical;
+}
+
+element {
+    background-color: transparent;
+    text-color: @foreground;
+    orientation: horizontal;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+element-icon {
+    background-color: transparent;
+    size: 32px;
+    padding: 0px 10px 0px 0px;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element selected {
+    background-color: @selected;
+    text-color: @background;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color: @urgent;
+    text-color: @background;
+}
+
+element normal.active,
+element alternate.active {
+    background-color: @active;
+    text-color: @background;
+}
+
+mode-switcher {
+    background-color: @background-alt;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    background-color: transparent;
+    text-color: @foreground;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button selected {
+    background-color: @selected;
+    text-color: @background;
+}

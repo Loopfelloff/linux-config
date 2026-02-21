@@ -1,0 +1,21 @@
+configuration {
+    modi: "drun,run,filebrowser";
+    font: "JetBrainsMono Nerd Font 12";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    display-drun: "Applications";
+    display-run: "Run";
+    display-filebrowser: "Files";
+    drun-display-format: "{name}";
+    sidebar-mode: true;
+    
+    kb-mode-next: "Alt+Tab";
+    kb-mode-previous: "Alt+Shift+Tab";
+    kb-row-up: "Up,Control+k";
+    kb-row-down: "Down,Control+j";
+    kb-accept-entry: "Return,KP_Enter";
+    kb-remove-to-eol: "";
+    kb-mode-complete: "";
+}
+
+@theme "~/.config/rofi/theme.rasi"

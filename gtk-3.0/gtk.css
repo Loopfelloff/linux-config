@@ -1,0 +1,16 @@
+/* Make Thunar window transparent */
+ThunarWindow,
+ThunarWindow GtkViewport,
+ThunarWindow GtkTreeView,
+ThunarWindow GtkScrolledWindow {
+    background-color: rgba(0, 0, 0, 0.0);  /* Fully transparent */
+    /* Optional: if you want some translucency: rgba(0,0,0,0.2) */
+}
+
+/* Remove shadows/borders for cleaner transparency */
+ThunarWindow,
+ThunarWindow GtkScrolledWindow {
+    box-shadow: none;
+    border: none;
+}
+

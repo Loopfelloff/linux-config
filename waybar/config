@@ -1,0 +1,90 @@
+{
+    "layer": "top", 
+    // "position": "left", // Waybar position (top|bottom|left|right) this one is okay ish i suppose
+    "height": 30,  // remove it to get auto value
+    // "width": 1280, // Waybar width
+    "spacing": 4, // gaps in px 
+    "modules-left": [
+        "hyprland/window" // shows which window is active
+    ],
+    "modules-center": [
+        "hyprland/workspaces" // basically shows which workspace is active right now
+    ],
+    "modules-right": [
+    	"group/system"
+    ],
+    "group/system": {
+    "orientation": "horizontal",
+    "modules": [
+        "pulseaudio",
+        "network",
+        "cpu",
+        "memory",
+        "temperature",
+        "backlight",
+        "battery",
+        "clock",
+    ]
+  },
+    // Modules configuration
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}" // this is when you click the clock thing
+    },
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "{}% "
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    },
+    "backlight": {
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": false
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{signalStrength}% ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        //"tooltip-format": "{ifname}: {ipaddr}/{cidr}"
+	"tooltip-format" : "{essid}"
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "  {volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    }
+}
