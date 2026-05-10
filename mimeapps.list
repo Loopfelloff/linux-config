@@ -1,2 +1,9 @@
 [Added Associations]
 video/webm=vlc.desktop;
+application/epub+zip=firefox.desktop;
+application/msword=firefox.desktop;
+
+[Default Applications]
+application/epub+zip=firefox.desktop
+x-scheme-handler/postman=Postman.desktop
+application/msword=firefox.desktop
