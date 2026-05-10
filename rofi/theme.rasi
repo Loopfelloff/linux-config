@@ -1,11 +1,11 @@
 * {
-    background: #1e1e2e;
-    background-alt: #313244;
-    foreground: #cdd6f4;
-    selected: #89b4fa;
+    background: #000000;
+    background-alt: #000000;
+    foreground: #ffffff;
+    selected: #ffffff;
     active: #a6e3a1;
     urgent: #f38ba8;
-    border: #89b4fa;
+    border: #ffffff;
 }
 
 window {
@@ -13,8 +13,7 @@ window {
     location: center;
     anchor: center;
     fullscreen: false;
-    width: 900px;  /* Increased width for two columns */
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
     border: 2px;
     border-color: @border;
@@ -38,8 +37,7 @@ horibox {
 
 /* Left side - Image container */
 image-container {
-    background-color: @background-alt;
-    background-image: url("~/Downloads/438463.png",height);  /* Put your image path here */
+    background-image: url("~/Downloads/dark_wallpaper.jpg",height);  
     border-radius: 10px 0px 0px 10px;
     padding: 0px;
 }
@@ -58,7 +56,7 @@ inputbar {
     text-color: @foreground;
     border-radius: 5px;
     padding: 8px;
-    children: [ prompt, entry ];
+    children: [entry]; /* [prompt, entry] entry is the text you search, prompt is the category of search like application, run etc */
 }
 
 prompt {
