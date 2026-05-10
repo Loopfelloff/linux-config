@@ -27,6 +27,9 @@
     ]
   },
     // Modules configuration
+      "wlr/workspaces": {
+         "format": "{icon}"
+     },
     "clock": {
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}" // this is when you click the clock thing
