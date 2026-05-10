@@ -5,10 +5,10 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // gaps in px 
     "modules-left": [
-        "hyprland/window" // shows which window is active
+        //"hyprland/window" // shows which window is active
+        "hyprland/workspaces" // basically shows which workspace is active right now
     ],
     "modules-center": [
-        "hyprland/workspaces" // basically shows which workspace is active right now
     ],
     "modules-right": [
     	"group/system"
@@ -23,7 +23,7 @@
         "temperature",
         "backlight",
         "battery",
-        "clock",
+        "clock"
     ]
   },
     // Modules configuration
@@ -63,11 +63,11 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{signalStrength}% ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "format-linked": "{ifname} (No IP) ",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "format-linked": "{ifname} (No IP)", 
         "format-disconnected": "Disconnected ⚠",
-        //"tooltip-format": "{ifname}: {ipaddr}/{cidr}"
 	"tooltip-format" : "{essid}"
+        //"tooltip-format": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
         "format": "{volume}% {icon} {format_source}",

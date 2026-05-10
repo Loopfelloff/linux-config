@@ -3,9 +3,17 @@
 ================================ */
 
 * {
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
     font-weight: bold;
+}
+
+box.horizontal {
+    background-color : rgba(0,0,0,1);
+}
+
+#modules-left {
+    background-color : #111111;
 }
 
 window#waybar {
@@ -38,9 +46,8 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 6px;
-    background: transparent;
-    color: white;
+    padding: 4px 8px;
+    color : white;
 }
 
 #workspaces button.focused,
@@ -95,80 +102,57 @@ button:hover {
 #pulseaudio {
     background: transparent;
     padding: 0 10px;
+    border-top : 1px solid white;
+    border-bottom: 1px solid white;
+    border-right : 1px solid white;
+    border-left : 1px solid white;
+    border-radius : 6px 6px 6px 6px;
+    color : white;
+    font-weight : bold;
+    margin : 0 5px;
 }
 
 /* ===============================
    Individual Colors
 ================================ */
 
-#clock { color: white;
-    background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
-    border-right : 1px solid white;
-    border-radius : 0px 6px 6px 0px;
+#clock { 
 }
 
-#battery { color: white; 
-    background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
+#battery { 
 }
 
-#cpu { color: white; 
-    background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
+#cpu { 
+    background-color : #C9BEFF;
 }
 
-#memory { color: white; 
-
-    background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
+#memory { 
+    background-color :#89D4FF;
 }
 
-#backlight { color: white; 
-    background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
+#backlight { 
 }
 
 
 #network {  
-    color: white; 
-    background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
+    background-color : #8494FF;
 }
 
 #network.disconnected { 
     color: red; 
     background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
-
 }
 
 #pulseaudio { 
-    color: white; 
-    background-color: rgba(255,255,255,0.5);
-    border-top: 1px solid white;
-    border-bottom : 1px solid white;
-    border-left : 1px solid white;
-    border-radius: 6px 0px 0px 6px;
+    background-color : #6367FF;
 
 }
 
-#temperature { color: white; 
+#temperature { 
     background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
 }
 
-#temperature.critical { color: white; 
+#temperature.critical { color: red; 
     background-color : rgba(255, 255,255,0.5);
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
 }
 
