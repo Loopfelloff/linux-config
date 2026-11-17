@@ -52,7 +52,7 @@ horibox {
 ================================ */
 
 image-container {
-    background-image: url("~/non_programming/images/wall.jpg", width);
+    background-image: url("~/Downloads/import/gruvbox-minimalism-cyber-hd-wallpaper-preview.jpg", width);
     border: 0px 2px 0px 0px;
     border-color: @amber;
     border-radius: 0px;
@@ -74,8 +74,7 @@ vertbox {
 inputbar {
     background-color: @bg-hover;
     text-color: @cream;
-    border: 0px 0px 0px 3px;
-    border-color: @amber;
+    border: 0px;
     border-radius: 0px;
     padding: 10px;
     children: [ entry ];
@@ -112,8 +111,7 @@ element {
     background-color: transparent;
     text-color: @dim;
     orientation: horizontal;
-    border: 0px 0px 0px 3px;
-    border-color: transparent;
+    border: 0px;
     border-radius: 0px;
     padding: 8px;
 }
@@ -138,7 +136,7 @@ element alternate.normal {
 element selected {
     background-color: @bg-hover;
     text-color: @amber;
-    border-color: @amber;
+    border: 0px;
 }
 
 /* ===============================
@@ -160,13 +158,13 @@ element alternate.active {
 element selected.urgent {
     background-color: @red;
     text-color: @bg;
-    border-color: @red;
+    border: 0px;
 }
 
 element selected.active {
     background-color: @olive;
     text-color: @bg;
-    border-color: @olive;
+    border: 0px;
 }
 
 /* ===============================
@@ -185,13 +183,12 @@ button {
     background-color: transparent;
     text-color: @dim;
     padding: 8px;
-    border: 0px 0px 2px 0px;
-    border-color: transparent;
+    border: 0px;
     border-radius: 0px;
 }
 
 button selected {
     background-color: @bg;
     text-color: @amber;
-    border-color: @amber;
+    border: 0px;
 }
