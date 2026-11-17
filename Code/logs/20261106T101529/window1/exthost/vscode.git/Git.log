@@ -1,0 +1,6 @@
+2026-11-06 10:15:32.765 [info] [main] Log level: Info
+2026-11-06 10:15:32.765 [info] [main] Validating found git in: "git"
+2026-11-06 10:15:32.765 [info] [main] Using git "2.55.0" from "git"
+2026-11-06 10:15:32.765 [info] [Model][doInitialScan] Initial repository scan started
+2026-11-06 10:15:32.765 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/abhiyan/sarthak_learn". Error:Error: ENOENT: no such file or directory, realpath '/home/abhiyan/sarthak_learn'
+2026-11-06 10:15:32.765 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

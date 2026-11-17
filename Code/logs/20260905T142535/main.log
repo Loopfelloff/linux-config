@@ -1,0 +1,11 @@
+2026-09-05 14:25:35.410 [info] StorageMainService: creating application shared storage
+2026-09-05 14:25:35.504 [info] [shared storage] Creating shared storage database at '/home/abhiyan/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-05 14:25:35.505 [info] [shared storage] Initializing fallback application storage (path: /home/abhiyan/.config/Code/User/globalStorage/state.vscdb)
+2026-09-05 14:25:35.521 [info] [shared storage] Fallback application storage initialized with 99 items
+2026-09-05 14:25:35.528 [info] update#setState idle
+2026-09-05 14:25:37.118 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75?u=none - error undefined net::ERR_INTERNET_DISCONNECTED
+2026-09-05 14:25:37.119 [error] update#isLatestVersion(): failed to check for updates
+2026-09-05 14:25:37.119 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:137422)
+    at SimpleURLLoaderWrapper.emit (node:events:509:28)
+2026-09-05 14:25:50.192 [info] Extension host with pid 22870 exited with code: 0, signal: unknown.

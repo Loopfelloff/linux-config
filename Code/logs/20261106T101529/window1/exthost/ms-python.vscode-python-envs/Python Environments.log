@@ -1,0 +1,66 @@
+2026-11-06 10:15:32.535 [info] Python-envs extension version: 1.38.0
+2026-11-06 10:15:32.535 [info] 
+=== Python Envs Configuration Levels ===
+2026-11-06 10:15:32.535 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-11-06 10:15:32.535 [info] [pet] Starting Python Locator /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64/python-env-tools/bin/pet server
+2026-11-06 10:15:32.535 [info] Registering conda manager (environments will be discovered lazily)
+2026-11-06 10:15:32.535 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-11-06 10:15:32.535 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-11-06 10:15:32.535 [info] Registering poetry manager (environments will be discovered lazily)
+2026-11-06 10:15:32.535 [info] [interpreterSelection] Applying initial environment selection for 0 workspace folder(s)
+2026-11-06 10:15:32.535 [warning] No workspace folder for relative search path: .venv
+2026-11-06 10:15:32.535 [warning] No workspace folder for relative search path: */.venv
+2026-11-06 10:15:32.535 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":[],"environmentDirectories":[],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-11-06 10:15:32.535 [warning] No workspace folder for relative search path: .venv
+2026-11-06 10:15:32.535 [warning] No workspace folder for relative search path: */.venv
+2026-11-06 10:15:32.535 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":[],"environmentDirectories":[],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-11-06 10:15:32.535 [error] [pet] [2m   0.059381181s[0m [33m WARN[0m [2mpet_python_utils::cache[0m[2m:[0m Cache directory has already been set to "/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator". Cannot change it now.
+
+2026-11-06 10:15:32.536 [info] Discovered env: /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+2026-11-06 10:15:32.576 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-11-06 10:15:32.578 [info] Refreshing Conda Environments
+2026-11-06 10:15:32.579 [info] Refreshing conda environments (hardRefresh=true)
+2026-11-06 10:15:32.579 [info] Refreshing Pyenv Environments
+2026-11-06 10:15:32.579 [info] Refreshing pyenv environments
+2026-11-06 10:15:32.579 [info] Refreshing Pipenv Environments
+2026-11-06 10:15:32.579 [info] Refreshing pipenv environments
+2026-11-06 10:15:32.579 [info] Refreshing Poetry Environments
+2026-11-06 10:15:32.579 [info] Refreshing poetry environments
+2026-11-06 10:15:32.590 [info] Discovered env: /usr/bin/python
+2026-11-06 10:15:32.642 [info] Discovered env: /usr/bin/python3.12
+2026-11-06 10:15:32.672 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 10:15:32.775 [info] Python API: Changed environment from undefined to Python 3.14.7 for: global
+2026-11-06 10:15:32.775 [info] Internal: Changed environment from undefined to Python 3.14.7 for: global
+2026-11-06 10:15:32.775 [info] [interpreterSelection] global: Python 3.14.7 (source: autoDiscovery)
+2026-11-06 10:15:32.874 [warning] No conda manager found in native finder data
+2026-11-06 10:15:32.874 [warning] No conda manager found in native finder data
+2026-11-06 10:15:32.875 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 10:15:32.875 [info] Found 0 pipenv environments
+2026-11-06 10:15:32.876 [info] Found venv environment: cpython-3.11.16-linux-x86_64-gnu (3.11.16)
+2026-11-06 10:15:32.876 [info] Found venv environment: cpython-3.11.16-linux-x86_64-gnu (3.11.16)
+2026-11-06 10:15:32.890 [info] Refreshing conda environments (hardRefresh=false)
+2026-11-06 10:15:32.890 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 10:15:32.891 [info] Refreshing pipenv environments
+2026-11-06 10:15:32.891 [info] Refreshing pyenv environments
+2026-11-06 10:15:32.891 [warning] No conda manager found in native finder data
+2026-11-06 10:15:32.891 [warning] No conda manager found in native finder data
+2026-11-06 10:15:32.891 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 10:15:32.892 [info] Found 0 pipenv environments
+2026-11-06 10:15:32.895 [info] Conda not found, conda features will be inactive.
+2026-11-06 10:15:32.898 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 10:15:32.904 [info] Refreshing poetry environments
+2026-11-06 10:15:32.905 [info] Environment discovery complete: 3 environments found (Global: 2, venv: 1)

@@ -1,0 +1,16 @@
+2026-10-14 17:24:04.239 [info] Started local extension host with pid 31497.
+2026-10-14 17:24:04.388 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-10-14 17:24:05.918 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-14 17:24:05.926 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-14 17:24:05.997 [error] [Extension Host] (node:31497) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-14 17:24:06.035 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-14 17:24:06.338 [error] [Extension Host] (node:31497) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-14 17:24:06.580 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-14 17:24:06.740 [info] [AgentHost:renderer] Protocol connection established; clientId=72abcf38-4093-48bf-9557-0cde18e93615
+2026-10-14 17:24:07.423 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-10-14 17:24:07.612 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-10-14 17:24:07.798 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-10-14 17:24:07.904 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-10-14 17:24:08.140 [info] [perf] Render performance baseline is 48ms
+2026-10-14 17:24:11.036 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

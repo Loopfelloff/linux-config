@@ -1,0 +1,32 @@
+2026-10-14 16:50:12.588 [info] Started local extension host with pid 26776.
+2026-10-14 16:50:12.834 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-10-14 16:50:14.154 [error] [Extension Host] (node:26776) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-14 16:50:14.394 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-14 16:50:14.930 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-14 16:50:15.170 [error] [Extension Host] (node:26776) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-14 16:50:17.938 [info] [perf] Render performance baseline is 28ms
+2026-10-14 16:50:18.345 [info] Auto updating outdated extensions. ms-python.python
+2026-10-14 16:50:18.414 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-14 16:50:19.396 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-14 16:50:30.144 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/script.ipynb notebook/jupyter-notebook/jupyter-notebook
+2026-10-14 16:50:31.083 [info] Started local extension host with pid 28535.
+2026-10-14 16:50:31.329 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-10-14 16:50:31.617 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-14 16:50:31.634 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-14 16:50:31.869 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-14 16:50:32.279 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-14 16:50:32.376 [info] [AgentHost:renderer] Protocol connection established; clientId=fc7cfdcb-aff6-4240-b0fa-f535090ac1a9
+2026-10-14 16:50:32.601 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-10-14 16:50:32.639 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-10-14 16:50:32.651 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-10-14 16:50:32.653 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-10-14 16:50:33.776 [info] [perf] Render performance baseline is 23ms
+2026-10-14 16:50:36.871 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-14 16:50:38.719 [error] [Extension Host] (node:28535) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-14 16:50:38.719 [error] [Extension Host] (node:28535) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-14 17:02:18.739 [info] Started local extension host with pid 29082.
+2026-10-14 17:02:20.189 [error] [Extension Host] (node:29082) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-14 17:02:20.499 [error] [Extension Host] (node:29082) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.

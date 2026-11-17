@@ -1,0 +1,260 @@
+Visual Studio Code (1.131.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.6.0.
+Python Environment Extension Version: 1.38.0.
+Pylance Extension Version: 2026.4.1.
+Platform: linux (x64).
+Home = /home/abhiyan
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Sepsis-Mortality-Anaylis-Mimic-IV
+22:06:16.333 [info] Starting Kernel (Python Path: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, Venv, 3.11.16) for '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' (disableUI=true)
+22:06:16.739 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m pip list
+22:06:16.757 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:06:16.785 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v330bfa5217896a766d5b5bb9e9594b91e2fab60dd.json
+    > cwd: ~/Sepsis-Mortality-Anaylis-Mimic-IV
+22:06:16.827 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+22:06:16.833 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:16.837 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:06:16.837 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:06:16.837 [warn] Failed to shutdown kernel, .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+22:06:16.838 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:18.360 [info] Starting Kernel (Python Path: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, Venv, 3.11.16) for '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' (disableUI=false)
+22:06:18.410 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:06:18.439 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+22:06:18.473 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3aa4d4a0327ee900291de5bee75035426adf4f579.json
+    > cwd: ~/Sepsis-Mortality-Anaylis-Mimic-IV
+22:06:18.511 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:18.512 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:06:18.512 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:06:18.512 [warn] Failed to shutdown kernel, .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+22:06:18.513 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:18.514 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:18.526 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:18.570 [info] Check & install missing Kernel dependencies for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, ui.disabled=false for resource '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:06:18.579 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:18.684 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:23.369 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:23.411 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m pip install -U ipykernel
+22:06:24.241 [error] Failed to install ipykernel error: externally-managed-environment
+
+× This environment is externally managed
+╰─> This Python installation is managed by uv and should not be modified.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+22:06:24.243 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:06:24.244 [error] Error in notebook cell execution Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:24.246 [error] Error in execution (get message for cell) Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:24.254 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:33.607 [info] Starting Kernel (Python Path: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, Venv, 3.11.16) for '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' (disableUI=false)
+22:06:33.617 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:06:33.631 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3b0d78df9dd074fa21778c78348e0f899ddb1fd5d.json
+    > cwd: ~/Sepsis-Mortality-Anaylis-Mimic-IV
+22:06:33.634 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+22:06:33.655 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:33.656 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:06:33.656 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:06:33.656 [warn] Failed to shutdown kernel, .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+22:06:33.657 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:33.657 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:33.666 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:33.682 [info] Check & install missing Kernel dependencies for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, ui.disabled=false for resource '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:06:33.690 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:33.716 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:42.123 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:06:42.164 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m pip install -U ipykernel
+22:06:42.556 [error] Failed to install ipykernel error: externally-managed-environment
+
+× This environment is externally managed
+╰─> This Python installation is managed by uv and should not be modified.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+22:06:42.557 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:06:42.558 [error] Error in notebook cell execution Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:42.558 [error] Error in execution (get message for cell) Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:06:42.567 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:09:07.501 [info] Starting Kernel (Python Path: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, Venv, 3.11.16) for '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' (disableUI=false)
+22:09:07.526 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:09:07.543 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v32b681b3d1be0101c67172fbb6f06618e7bdeb1d3.json
+    > cwd: ~/Sepsis-Mortality-Anaylis-Mimic-IV
+22:09:07.546 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+22:09:07.567 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:09:07.568 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:09:07.568 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:09:07.568 [warn] Failed to shutdown kernel, .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+22:09:07.569 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:09:07.569 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:09:07.579 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:09:07.595 [info] Check & install missing Kernel dependencies for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, ui.disabled=false for resource '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:09:07.604 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:09:07.628 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:09:09.394 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:09:21.932 [info] Interrupt requested & no kernel.
+22:09:23.018 [info] Interrupt requested & no kernel.
+22:09:23.190 [info] Interrupt requested & no kernel.
+22:09:23.342 [info] Interrupt requested & no kernel.
+22:09:24.742 [info] Interrupt requested & no kernel.
+22:09:31.896 [error] Error in notebook cell execution Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:09:31.897 [error] Error in execution (get message for cell) Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:09:31.907 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:09:34.318 [info] Starting Kernel (Python Path: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, Venv, 3.11.16) for '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' (disableUI=false)
+22:09:34.326 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:09:34.340 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v36b559564db8903415ab390fbf8baf3438b5608b7.json
+    > cwd: ~/Sepsis-Mortality-Anaylis-Mimic-IV
+22:09:34.342 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+22:09:34.378 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:09:34.379 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:09:34.379 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:09:34.379 [warn] Failed to shutdown kernel, .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+22:09:34.379 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:09:34.379 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:09:34.389 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:09:34.405 [info] Check & install missing Kernel dependencies for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, ui.disabled=false for resource '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:09:34.413 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:09:34.437 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:09:35.839 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:09:41.398 [info] Interrupt requested & no kernel.
+22:09:43.413 [info] Interrupt requested & no kernel.
+22:09:43.545 [info] Interrupt requested & no kernel.
+22:09:45.325 [info] Interrupt requested & no kernel.
+22:09:45.484 [info] Interrupt requested & no kernel.
+22:09:45.621 [info] Interrupt requested & no kernel.
+22:09:45.723 [info] Interrupt requested & no kernel.
+22:11:29.687 [info] Starting Kernel (Python Path: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, Venv, 3.11.16) for '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' (disableUI=true)
+22:11:29.696 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m pip list
+22:11:29.707 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:11:29.729 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3292ee6d96aea122ee356935158919034d2533d35.json
+    > cwd: ~/Sepsis-Mortality-Anaylis-Mimic-IV
+22:11:29.734 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+22:11:29.755 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:11:29.756 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:11:29.756 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:11:29.756 [warn] Failed to shutdown kernel, .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+22:11:29.756 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+22:11:33.465 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:11:34.118 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:11:34.118 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:11:34.119 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:11:34.119 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+22:11:34.119 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'

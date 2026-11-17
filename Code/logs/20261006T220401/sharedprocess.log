@@ -1,0 +1,21 @@
+2026-10-06 22:04:11.149 [info] Getting Manifest... ms-python.python
+2026-10-06 22:04:11.151 [info] Getting Manifest... ms-python.vscode-pylance
+2026-10-06 22:04:11.153 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-10-06 22:04:11.631 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-10-06 22:04:11.634 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-10-06 22:04:11.637 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-10-06 22:04:16.708 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 1825ms.
+2026-10-06 22:04:16.714 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 2033ms.
+2026-10-06 22:04:17.858 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 998ms.
+2026-10-06 22:04:18.290 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64: ms-python.vscode-python-envs
+2026-10-06 22:04:18.313 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64
+2026-10-06 22:04:18.331 [info] Marked extension as removed ms-python.vscode-python-envs-1.36.0-linux-x64
+2026-10-06 22:04:18.340 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-10-06 22:04:18.674 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.python-2026.6.0-linux-x64: ms-python.python
+2026-10-06 22:04:18.756 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.python-2026.6.0-linux-x64
+2026-10-06 22:04:18.776 [info] Marked extension as removed ms-python.python-2026.4.0-linux-x64
+2026-10-06 22:04:18.778 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-10-06 22:04:20.458 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1: ms-python.vscode-pylance
+2026-10-06 22:04:20.673 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1
+2026-10-06 22:04:20.704 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-10-06 22:04:20.705 [info] Marked extension as removed ms-python.vscode-pylance-2026.3.1

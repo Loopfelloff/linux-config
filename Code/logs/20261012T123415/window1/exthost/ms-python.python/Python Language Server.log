@@ -1,0 +1,42 @@
+2026-10-12 12:34:30.330 [info] Client: Pylance client (2026.4.1) started with python extension (2026.6.0)
+2026-10-12 12:34:30.725 [info] (3945): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-12 12:34:30.725 [info] (3945): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-10-12 12:34:30.733 [info] (3945): Starting service instance "Sepsis-Mortality-Anaylis-Mimic-IV" for workspace "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"
+2026-10-12 12:34:31.512 [info] (3945): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV...
+2026-10-12 12:34:31.541 [info] (3945): Starting Mcp server id:42363 ...
+2026-10-12 12:34:31.565 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Loading pyproject.toml file at /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/pyproject.toml
+2026-10-12 12:34:31.565 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Pyproject file "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/pyproject.toml" has no "[tool.pyright]" section.
+2026-10-12 12:34:31.566 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Setting environmentName for service "Sepsis-Mortality-Anaylis-Mimic-IV": "Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12)"
+2026-10-12 12:34:31.566 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Setting pythonPath for service "Sepsis-Mortality-Anaylis-Mimic-IV": "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python"
+2026-10-12 12:34:31.567 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): No include entries specified; assuming /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:31.567 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/node_modules
+2026-10-12 12:34:31.567 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/__pycache__
+2026-10-12 12:34:31.567 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/.*
+2026-10-12 12:34:31.567 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/__editable__.*
+2026-10-12 12:34:31.615 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Assuming Python version 3.12.12.final.0
+2026-10-12 12:34:31.699 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Found 41 source files
+2026-10-12 12:34:31.709 [info] (3945): Settings have not changed. Skipping update.
+2026-10-12 12:34:31.715 [info] (3945): Starting service instance "Sepsis-Mortality-Anaylis-Mimic-IV" for workspace "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"
+2026-10-12 12:34:31.715 [info] (3945): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV...
+2026-10-12 12:34:31.725 [info] (3945): [Editable Installs] Starting dynamic pth file resolution for Python: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:31.766 [info] (3945): [Editable Installs] No sandbox available for Python /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-10-12 12:34:31.779 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Loading pyproject.toml file at /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/pyproject.toml
+2026-10-12 12:34:31.779 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Pyproject file "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/pyproject.toml" has no "[tool.pyright]" section.
+2026-10-12 12:34:31.779 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Setting environmentName for service "Sepsis-Mortality-Anaylis-Mimic-IV": "Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12)"
+2026-10-12 12:34:31.779 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Setting pythonPath for service "Sepsis-Mortality-Anaylis-Mimic-IV": "/home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python"
+2026-10-12 12:34:31.779 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): No include entries specified; assuming /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:31.780 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/node_modules
+2026-10-12 12:34:31.780 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/__pycache__
+2026-10-12 12:34:31.780 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/.*
+2026-10-12 12:34:31.780 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/__editable__.*
+2026-10-12 12:34:31.803 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Assuming Python version 3.11.16.final.0
+2026-10-12 12:34:31.862 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Found 41 source files
+2026-10-12 12:34:32.117 [info] (3945): PQ(Sepsis-Mortality-Anaylis-Mimic-IV): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-12 12:34:32.117 [info] (3945): PQ(Sepsis-Mortality-Anaylis-Mimic-IV): Priority queue background worker(2) started
+2026-10-12 12:34:32.271 [info] (3945): PQ(Sepsis-Mortality-Anaylis-Mimic-IV): Priority queue background worker(4) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-12 12:34:32.272 [info] (3945): PQ(Sepsis-Mortality-Anaylis-Mimic-IV): Priority queue background worker(4) started
+2026-10-12 12:34:32.400 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): Indexer background runner(5) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist (index)
+2026-10-12 12:34:32.400 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): Indexing(5) started
+2026-10-12 12:34:32.664 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): scanned(5) 12 files over 1 exec env
+2026-10-12 12:34:32.772 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): indexed(5) 12 files over 1 exec env
+2026-10-12 12:34:32.773 [info] (3945): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): Indexing finished(5).

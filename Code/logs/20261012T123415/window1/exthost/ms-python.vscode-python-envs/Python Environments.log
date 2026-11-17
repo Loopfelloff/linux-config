@@ -1,0 +1,89 @@
+2026-10-12 12:34:18.533 [info] Python-envs extension version: 1.38.0
+2026-10-12 12:34:18.533 [info] 
+=== Python Envs Configuration Levels ===
+2026-10-12 12:34:18.533 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-10-12 12:34:18.533 [info] Python API: Projects changed. Added: 1, Removed: 0
+2026-10-12 12:34:18.533 [info] [pet] Starting Python Locator /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64/python-env-tools/bin/pet server
+2026-10-12 12:34:18.533 [info] Registering conda manager (environments will be discovered lazily)
+2026-10-12 12:34:18.533 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-10-12 12:34:18.533 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-10-12 12:34:18.533 [info] Registering poetry manager (environments will be discovered lazily)
+2026-10-12 12:34:18.533 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-10-12 12:34:18.533 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"],"environmentDirectories":["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv","/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-12 12:34:18.533 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"],"environmentDirectories":["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv","/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-12 12:34:18.533 [error] [pet] [2m   0.069352387s[0m [33m WARN[0m [2mpet_python_utils::cache[0m[2m:[0m Cache directory has already been set to "/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator". Cannot change it now.
+
+2026-10-12 12:34:18.540 [info] Discovered env: /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+2026-10-12 12:34:18.540 [info] Discovered env: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:18.552 [info] Resolved Python Environment /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:18.556 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-10-12 12:34:18.631 [info] Discovered env: /usr/bin/python
+2026-10-12 12:34:18.644 [info] Discovered env: /usr/bin/python3.12
+2026-10-12 12:34:18.741 [info] Python API: Changed environment from undefined to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:18.741 [info] Internal: Changed environment from undefined to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:18.741 [info] [interpreterSelection] Sepsis-Mortality-Anaylis-Mimic-IV: Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) (source: autoDiscovery)
+2026-10-12 12:34:18.741 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-10-12 12:34:18.779 [info] Resolved Python Environment /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:18.786 [info] Resolved Python Environment /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:18.788 [info] Resolved Python Environment /usr/bin/python
+2026-10-12 12:34:18.808 [info] Found venv environment: cpython-3.11.16-linux-x86_64-gnu (3.11.16)
+2026-10-12 12:34:18.818 [info] Python API: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:18.818 [info] Internal: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:18.852 [info] Resolved Python Environment /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:18.855 [info] Python API: Changed environment from undefined to Python 3.14.7 for: global
+2026-10-12 12:34:18.855 [info] Internal: Changed environment from undefined to Python 3.14.7 for: global
+2026-10-12 12:34:18.855 [info] [interpreterSelection] global: Python 3.14.7 (source: autoDiscovery)
+2026-10-12 12:34:18.860 [info] Found venv environment: Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12)
+2026-10-12 12:34:18.871 [info] Python API: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:18.871 [info] Internal: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:18.926 [info] Refreshing conda environments (hardRefresh=false)
+2026-10-12 12:34:18.930 [warning] No conda manager found in native finder data
+2026-10-12 12:34:18.930 [warning] No conda manager found in native finder data
+2026-10-12 12:34:18.933 [info] Conda not found, conda features will be inactive.
+2026-10-12 12:34:18.937 [info] Refreshing pyenv environments
+2026-10-12 12:34:18.946 [info] Pipenv not found via settings, cache, or PATH
+2026-10-12 12:34:18.947 [info] Refreshing pipenv environments
+2026-10-12 12:34:18.948 [info] Pipenv not found via settings, cache, or PATH
+2026-10-12 12:34:18.948 [info] Found 0 pipenv environments
+2026-10-12 12:34:18.948 [info] Pipenv not found via settings, cache, or PATH
+2026-10-12 12:34:18.951 [info] Using poetry from persistent state: /usr/bin/poetry
+2026-10-12 12:34:18.951 [info] Refreshing poetry environments
+2026-10-12 12:34:18.952 [info] Environment discovery complete: 4 environments found (Global: 2, venv: 2)
+2026-10-12 12:34:19.128 [info] Refreshing Conda Environments
+2026-10-12 12:34:19.128 [info] Refreshing conda environments (hardRefresh=true)
+2026-10-12 12:34:19.128 [info] Refreshing Pyenv Environments
+2026-10-12 12:34:19.128 [info] Refreshing pyenv environments
+2026-10-12 12:34:19.128 [info] Refreshing Pipenv Environments
+2026-10-12 12:34:19.128 [info] Refreshing pipenv environments
+2026-10-12 12:34:19.128 [info] Refreshing Poetry Environments
+2026-10-12 12:34:19.128 [info] Refreshing poetry environments
+2026-10-12 12:34:19.142 [info] Discovered env: /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+2026-10-12 12:34:19.142 [info] Discovered env: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:19.143 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-10-12 12:34:19.373 [info] Discovered env: /usr/bin/python
+2026-10-12 12:34:19.465 [info] Discovered env: /usr/bin/python3.12
+2026-10-12 12:34:19.549 [warning] No conda manager found in native finder data
+2026-10-12 12:34:19.549 [warning] No conda manager found in native finder data
+2026-10-12 12:34:19.551 [info] Pipenv not found via settings, cache, or PATH
+2026-10-12 12:34:19.551 [info] Found 0 pipenv environments
+2026-10-12 12:34:19.561 [info] Found venv environment: cpython-3.11.16-linux-x86_64-gnu (3.11.16)
+2026-10-12 12:34:19.598 [info] Found venv environment: Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12)
+2026-10-12 12:34:19.604 [info] Python API: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:19.604 [info] Internal: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:21.859 [error] [pet] [2m   3.457569226s[0m [33m WARN[0m [2mpet_poetry::telemetry[0m[2m:[0m Poetry virtualenvs.in-project is different from the one we found: None != Some(true)
+[2m   3.458648224s[0m [33m WARN[0m [2mpet_poetry::telemetry[0m[2m:[0m Missing Poetry envs: ["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv"] for "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"
+

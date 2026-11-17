@@ -1,0 +1,98 @@
+2026-10-14 16:50:15.235 [info] [main] Log level: Info
+2026-10-14 16:50:15.235 [info] [main] Validating found git in: "git"
+2026-10-14 16:50:15.235 [info] [main] Using git "2.55.0" from "git"
+2026-10-14 16:50:15.235 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-14 16:50:15.235 [info] > git rev-parse --show-toplevel [61ms]
+2026-10-14 16:50:15.293 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [50ms]
+2026-10-14 16:50:15.364 [info] [Model][openRepository] Opened repository (path): /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:15.364 [info] [Model][openRepository] Opened repository (real path): /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:15.364 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-14 16:50:15.404 [info] > git config --get commit.template [22ms]
+2026-10-14 16:50:15.404 [info] > git config --get --local core.virtualfilesystem [31ms]
+2026-10-14 16:50:15.405 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-14 16:50:15.412 [info] > git rev-parse --show-toplevel [26ms]
+2026-10-14 16:50:15.435 [info] > git rev-parse --show-toplevel [4ms]
+2026-10-14 16:50:15.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2026-10-14 16:50:15.448 [info] > git rev-parse --show-toplevel [6ms]
+2026-10-14 16:50:15.473 [info] > git rev-parse --show-toplevel [6ms]
+2026-10-14 16:50:15.474 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-10-14 16:50:15.494 [info] > git status -z -uall [39ms]
+2026-10-14 16:50:15.533 [info] > git rev-parse --show-toplevel [52ms]
+2026-10-14 16:50:15.543 [info] > git config --get commit.template [11ms]
+2026-10-14 16:50:15.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2026-10-14 16:50:15.561 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [21ms]
+2026-10-14 16:50:15.562 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2026-10-14 16:50:15.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2026-10-14 16:50:15.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2026-10-14 16:50:15.585 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2026-10-14 16:50:15.613 [info] > git status -z -uall [13ms]
+2026-10-14 16:50:15.613 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 167894d18a1a25e5208bc4bb5beff1d2223b3f09...refs/remotes/origin/main -- [21ms]
+2026-10-14 16:50:15.614 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-10-14 16:50:15.776 [info] [Model][openRepository] Opened repository (path): /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/mimic-code
+2026-10-14 16:50:15.776 [info] [Model][openRepository] Opened repository (real path): /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/mimic-code
+2026-10-14 16:50:15.776 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-14 16:50:15.798 [info] > git config --get commit.template [9ms]
+2026-10-14 16:50:15.799 [info] > git config --get --local core.virtualfilesystem [17ms]
+2026-10-14 16:50:15.799 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-14 16:50:15.800 [info] > git rev-parse --show-toplevel [4ms]
+2026-10-14 16:50:15.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-10-14 16:50:15.819 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/mimic-code/.git/refs/remotes/origin/main'
+2026-10-14 16:50:15.820 [info] > git rev-parse --show-toplevel [7ms]
+2026-10-14 16:50:15.825 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2026-10-14 16:50:15.838 [info] > git rev-parse --show-toplevel [13ms]
+2026-10-14 16:50:15.840 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-14 16:50:15.842 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-10-14 16:50:16.413 [info] > git status -z -uall [582ms]
+2026-10-14 16:50:16.509 [info] > git check-ignore -v -z --stdin [78ms]
+2026-10-14 16:50:16.510 [info] > git check-ignore -v -z --stdin [72ms]
+2026-10-14 16:50:16.531 [info] > git config --get commit.template [23ms]
+2026-10-14 16:50:16.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [109ms]
+2026-10-14 16:50:16.645 [info] > git config --get --local branch.main.vscode-merge-base [108ms]
+2026-10-14 16:50:16.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [97ms]
+2026-10-14 16:50:16.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [141ms]
+2026-10-14 16:50:16.768 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/mimic-code/.git/refs/remotes/origin/main'
+2026-10-14 16:50:16.772 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2026-10-14 16:50:16.782 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2026-10-14 16:50:16.811 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 303d26c623dcc9c49cc0f204468d4acc2f063797...refs/remotes/origin/main -- [32ms]
+2026-10-14 16:50:16.816 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2026-10-14 16:50:17.059 [info] > git status -z -uall [271ms]
+2026-10-14 16:56:48.024 [info] [main] Log level: Info
+2026-10-14 16:56:48.024 [info] [main] Validating found git in: "git"
+2026-10-14 16:56:48.024 [info] [main] Using git "2.55.0" from "git"
+2026-10-14 16:56:48.024 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-14 16:56:48.040 [info] > git rev-parse --show-toplevel [90ms]
+2026-10-14 16:56:48.040 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 16:56:48.057 [info] > git rev-parse --show-toplevel [9ms]
+2026-10-14 16:56:48.057 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 16:56:48.060 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-14 16:56:48.233 [info] > git rev-parse --show-toplevel [8ms]
+2026-10-14 16:56:48.233 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 16:56:48.611 [info] > git rev-parse --show-toplevel [4ms]
+2026-10-14 16:56:48.611 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 16:56:52.153 [info] > git rev-parse --show-toplevel [11ms]
+2026-10-14 16:56:52.153 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:01:11.543 [info] > git rev-parse --show-toplevel [4ms]
+2026-10-14 17:01:11.543 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:01:12.382 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-14 17:01:12.383 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:02:06.612 [info] > git rev-parse --show-toplevel [3ms]
+2026-10-14 17:02:06.612 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:02:21.173 [info] [main] Log level: Info
+2026-10-14 17:02:21.173 [info] [main] Validating found git in: "git"
+2026-10-14 17:02:21.173 [info] [main] Using git "2.55.0" from "git"
+2026-10-14 17:02:21.173 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-14 17:02:21.204 [info] > git rev-parse --show-toplevel [93ms]
+2026-10-14 17:02:21.204 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:02:21.260 [info] > git rev-parse --show-toplevel [49ms]
+2026-10-14 17:02:21.260 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:02:21.261 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-14 17:03:07.116 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-14 17:03:07.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:03:18.734 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-14 17:03:18.734 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:05:49.068 [info] > git rev-parse --show-toplevel [3ms]
+2026-10-14 17:05:49.068 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:05:49.149 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-14 17:05:49.149 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-10-14 17:05:49.169 [info] > git rev-parse --show-toplevel [2ms]
+2026-10-14 17:05:49.169 [info] fatal: not a git repository (or any of the parent directories): .git

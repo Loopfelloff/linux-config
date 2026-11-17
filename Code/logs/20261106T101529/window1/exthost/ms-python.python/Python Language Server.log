@@ -1,0 +1,25 @@
+2026-11-06 10:15:33.609 [info] Client: Pylance shadow experiment not started: notSingleRoot.
+2026-11-06 10:15:34.117 [info] Client: Pylance client (2026.4.1) started with python extension (2026.8.0)
+2026-11-06 10:15:34.605 [info] (10229): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-11-06 10:15:34.605 [info] (10229): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-11-06 10:15:34.634 [info] (10229): Starting service instance "<default>" for workspace ""
+2026-11-06 10:15:35.520 [info] (10229): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into ...
+2026-11-06 10:15:35.650 [info] (10229): Starting Mcp server id:46659 ...
+2026-11-06 10:15:35.740 [info] (10229): FG(<default>): Setting environmentName for service "<default>": "Python 3.14.7"
+2026-11-06 10:15:35.740 [info] (10229): FG(<default>): Setting pythonPath for service "<default>": "/usr/bin/python"
+2026-11-06 10:15:35.740 [info] (10229): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-11-06 10:15:35.742 [info] (10229): FG(<default>): Auto-excluding **/node_modules
+2026-11-06 10:15:35.742 [info] (10229): FG(<default>): Auto-excluding **/__pycache__
+2026-11-06 10:15:35.742 [info] (10229): FG(<default>): Auto-excluding **/.*
+2026-11-06 10:15:35.742 [info] (10229): FG(<default>): Auto-excluding **/__editable__.*
+2026-11-06 10:15:35.786 [info] (10229): FG(<default>): Assuming Python version 3.14.7.final.0
+2026-11-06 10:15:35.899 [error] (10229): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-11-06 10:15:35.899 [info] (10229): FG(<default>): No source files found.
+2026-11-06 10:15:35.914 [info] (10229): Settings have not changed. Skipping update.
+2026-11-06 10:15:35.967 [info] (10229): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-11-06 10:15:36.345 [info] (10229): [Editable Installs] Sandbox created successfully for Python /usr/bin/python
+2026-11-06 10:15:36.398 [info] (10229): [Editable Installs] Searching for pth files in site-packages directories: /usr/lib/python3.14/site-packages
+2026-11-06 10:15:36.399 [info] (10229): [Editable Installs] No .pth files found
+2026-11-06 10:15:36.400 [info] (10229): [Editable Installs] Completed pth file resolution. Successfully resolved 0 editable package(s).
+2026-11-06 10:15:36.657 [info] (10229): PQ(<default>): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-11-06 10:15:36.658 [info] (10229): PQ(<default>): Priority queue background worker(2) started

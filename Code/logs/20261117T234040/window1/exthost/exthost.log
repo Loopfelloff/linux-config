@@ -1,0 +1,11 @@
+2026-11-17 23:40:42.455 [info] Extension host with pid 29172 started
+2026-11-17 23:40:42.456 [info] Skipping acquiring lock for /home/abhiyan/.config/Code/User/workspaceStorage/c358dcfb8ee8b53451a99ed490f44b70.
+2026-11-17 23:40:42.565 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-11-17 23:40:42.597 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-11-17 23:40:42.715 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-11-17 23:40:42.786 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-11-17 23:40:42.827 [info] Eager extensions activated
+2026-11-17 23:40:42.861 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-17 23:40:42.864 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-17 23:40:43.086 [info] Extension host terminating: received terminate message from renderer
+2026-11-17 23:40:43.094 [info] Extension host with pid 29172 exiting with code 0

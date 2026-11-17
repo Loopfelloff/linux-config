@@ -1,0 +1,7 @@
+2026-08-10 14:06:51.446 [info] StorageMainService: creating application shared storage
+2026-08-10 14:06:51.528 [info] [shared storage] Creating shared storage database at '/home/abhiyan/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-08-10 14:06:51.529 [info] [shared storage] Initializing fallback application storage (path: /home/abhiyan/.config/Code/User/globalStorage/state.vscdb)
+2026-08-10 14:06:51.548 [info] [shared storage] Fallback application storage initialized with 99 items
+2026-08-10 14:06:51.556 [info] update#setState idle
+2026-08-10 14:06:52.779 [info] AgentHostProcessManager: agent host started
+2026-08-10 14:06:52.975 [info] Extension host with pid 9092 exited with code: 0, signal: unknown.

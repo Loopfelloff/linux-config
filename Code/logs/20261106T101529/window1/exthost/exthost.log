@@ -1,0 +1,71 @@
+2026-11-06 10:15:30.810 [info] Extension host with pid 9149 started
+2026-11-06 10:15:30.886 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-11-06 10:15:30.917 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-11-06 10:15:30.930 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-11-06 10:15:31.118 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-11-06 10:15:31.644 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-11-06 10:15:31.704 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-11-06 10:15:32.331 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-11-06 10:15:32.344 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-11-06 10:15:32.372 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-11-06 10:15:32.432 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-11-06 10:15:32.591 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-11-06 10:15:32.642 [info] Eager extensions activated
+2026-11-06 10:15:32.702 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-06 10:15:32.706 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-06 10:15:32.997 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-11-06 10:15:35.920 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-11-06 10:16:06.058 [info] Extension host terminating: received terminate message from renderer
+2026-11-06 10:16:06.076 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-11-06 10:16:06.077 [error] Error: Channel has been closed
+	at r (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:542:3935)
+	at Object.error (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:542:4394)
+	at Object.dispose (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64/dist/extension.js:2:763474)
+	at /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64/dist/extension.js:2:762061
+	at Array.forEach (<anonymous>)
+	at D.dispose (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64/dist/extension.js:2:762048)
+	at wn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:429:736)
+	at Q_._fn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:18838)
+	at Q_.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:429:1248)
+	at g_._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:15155)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12457
+	at Array.map (<anonymous>)
+	at g_._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12445)
+	at g_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12796)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:541:1072)
+	at da (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:11797)
+	at Pp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:9939)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at fs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8509)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-11-06 10:16:06.084 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.le [as deactivate] (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64/dist/extension.js:2:976515)
+	at g_._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:14930)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12457
+	at Array.map (<anonymous>)
+	at g_._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12445)
+	at g_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:539:12796)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:541:1072)
+	at da (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:11797)
+	at Pp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:9939)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at fs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8509)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-11-06 10:16:06.085 [info] Extension host with pid 9149 exiting with code 0
+2026-11-06 10:16:07.365 [info] Extension host with pid 12285 started
+2026-11-06 10:16:07.365 [info] Skipping acquiring lock for /home/abhiyan/.config/Code/User/workspaceStorage/5e306aa5b7a417d84e112c535da10e5a.
+2026-11-06 10:16:07.398 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-11-06 10:16:07.420 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-11-06 10:16:07.487 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-11-06 10:16:07.492 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-11-06 10:16:07.530 [info] Eager extensions activated
+2026-11-06 10:16:07.534 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-06 10:16:07.542 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-06 10:55:59.387 [info] Extension host terminating: received terminate message from renderer
+2026-11-06 10:55:59.394 [info] Extension host with pid 12285 exiting with code 0

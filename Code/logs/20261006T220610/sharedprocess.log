@@ -1,0 +1,6 @@
+2026-10-06 22:06:14.613 [info] Marked extension as removed ms-python.python-2026.4.0-linux-x64
+2026-10-06 22:06:14.614 [info] Marked extension as removed ms-python.vscode-pylance-2026.3.1
+2026-10-06 22:06:14.614 [info] Marked extension as removed ms-python.vscode-python-envs-1.36.0-linux-x64
+2026-10-06 22:06:14.824 [info] Deleted marked for removal extension from disk ms-python.vscode-python-envs /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64
+2026-10-06 22:06:15.113 [info] Deleted marked for removal extension from disk ms-python.vscode-pylance /home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1
+2026-10-06 22:06:15.141 [info] Deleted marked for removal extension from disk ms-python.python /home/abhiyan/.vscode/extensions/ms-python.python-2026.4.0-linux-x64

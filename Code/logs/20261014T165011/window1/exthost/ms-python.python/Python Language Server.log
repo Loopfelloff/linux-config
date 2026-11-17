@@ -1,0 +1,84 @@
+2026-10-14 16:50:18.137 [info] (28059): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 16:50:18.440 [info] Client: Pylance client (2026.4.1) started with python extension (2026.6.0)
+2026-10-14 16:50:18.529 [info] (28059): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-10-14 16:50:18.532 [info] (28059): Starting service instance "Sepsis-Mortality-Anaylis-Mimic-IV" for workspace "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"
+2026-10-14 16:50:19.763 [info] (28059): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV...
+2026-10-14 16:50:19.831 [info] (28059): Starting Mcp server id:37369 ...
+2026-10-14 16:50:19.906 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Loading pyproject.toml file at /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/pyproject.toml
+2026-10-14 16:50:19.908 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Pyproject file "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/pyproject.toml" has no "[tool.pyright]" section.
+2026-10-14 16:50:19.908 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Setting environmentName for service "Sepsis-Mortality-Anaylis-Mimic-IV": "Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12)"
+2026-10-14 16:50:19.909 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Setting pythonPath for service "Sepsis-Mortality-Anaylis-Mimic-IV": "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python"
+2026-10-14 16:50:19.909 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): No include entries specified; assuming /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:19.911 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/node_modules
+2026-10-14 16:50:19.911 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/__pycache__
+2026-10-14 16:50:19.911 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/.*
+2026-10-14 16:50:19.911 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/__editable__.*
+2026-10-14 16:50:19.989 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Assuming Python version 3.12.12.final.0
+2026-10-14 16:50:20.118 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Found 41 source files
+2026-10-14 16:50:20.136 [info] (28059): Settings have not changed. Skipping update.
+2026-10-14 16:50:20.145 [info] (28059): Settings have not changed. Skipping update.
+2026-10-14 16:50:20.153 [info] (28059): Settings have not changed. Skipping update.
+2026-10-14 16:50:20.161 [info] (28059): Starting service instance "Sepsis-Mortality-Anaylis-Mimic-IV" for workspace "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"
+2026-10-14 16:50:20.161 [info] (28059): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV...
+2026-10-14 16:50:20.175 [info] (28059): [Editable Installs] Starting dynamic pth file resolution for Python: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-14 16:50:20.226 [info] (28059): [Editable Installs] No sandbox available for Python /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Loading pyproject.toml file at /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/pyproject.toml
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Pyproject file "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/pyproject.toml" has no "[tool.pyright]" section.
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Setting environmentName for service "Sepsis-Mortality-Anaylis-Mimic-IV": "Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12)"
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Setting pythonPath for service "Sepsis-Mortality-Anaylis-Mimic-IV": "/home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python"
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): No include entries specified; assuming /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/node_modules
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/__pycache__
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/.*
+2026-10-14 16:50:20.246 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Auto-excluding **/__editable__.*
+2026-10-14 16:50:20.286 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Assuming Python version 3.11.16.final.0
+2026-10-14 16:50:20.367 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): Found 41 source files
+2026-10-14 16:50:20.755 [info] (28059): PQ(Sepsis-Mortality-Anaylis-Mimic-IV): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 16:50:20.755 [info] (28059): PQ(Sepsis-Mortality-Anaylis-Mimic-IV): Priority queue background worker(2) started
+2026-10-14 16:50:20.926 [info] (28059): PQ(Sepsis-Mortality-Anaylis-Mimic-IV): Priority queue background worker(4) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 16:50:20.929 [info] (28059): PQ(Sepsis-Mortality-Anaylis-Mimic-IV): Priority queue background worker(4) started
+2026-10-14 16:50:21.131 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): Indexer background runner(5) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist (index)
+2026-10-14 16:50:21.131 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): Indexing(5) started
+2026-10-14 16:50:21.553 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): scanned(5) 12 files over 1 exec env
+2026-10-14 16:50:21.725 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): indexed(5) 12 files over 1 exec env
+2026-10-14 16:50:21.727 [info] (28059): FG(Sepsis-Mortality-Anaylis-Mimic-IV): IDX(Sepsis-Mortality-Anaylis-Mimic-IV): Indexing finished(5).
+2026-10-14 17:02:21.949 [info] Client: Pylance client (2026.4.1) started with python extension (2026.8.0)
+2026-10-14 17:02:22.624 [info] (29206): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 17:02:22.625 [info] (29206): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-10-14 17:02:22.636 [info] (29206): Starting service instance "sarthak_learn" for workspace "/home/abhiyan/sarthak_learn"
+2026-10-14 17:02:23.861 [info] (29206): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/abhiyan/sarthak_learn...
+2026-10-14 17:02:23.882 [info] (29206): Starting Mcp server id:35407 ...
+2026-10-14 17:02:23.934 [info] (29206): FG(sarthak_learn): Setting environmentName for service "sarthak_learn": "Python 3.14.7"
+2026-10-14 17:02:23.934 [info] (29206): FG(sarthak_learn): Setting pythonPath for service "sarthak_learn": "/usr/bin/python"
+2026-10-14 17:02:23.935 [info] (29206): FG(sarthak_learn): No include entries specified; assuming /home/abhiyan/sarthak_learn
+2026-10-14 17:02:23.936 [info] (29206): FG(sarthak_learn): Auto-excluding **/node_modules
+2026-10-14 17:02:23.936 [info] (29206): FG(sarthak_learn): Auto-excluding **/__pycache__
+2026-10-14 17:02:23.936 [info] (29206): FG(sarthak_learn): Auto-excluding **/.*
+2026-10-14 17:02:23.936 [info] (29206): FG(sarthak_learn): Auto-excluding **/__editable__.*
+2026-10-14 17:02:23.974 [info] (29206): FG(sarthak_learn): Assuming Python version 3.14.7.final.0
+2026-10-14 17:02:24.046 [info] (29206): FG(sarthak_learn): Found 1 source file
+2026-10-14 17:02:24.055 [info] (29206): Settings have not changed. Skipping update.
+2026-10-14 17:02:24.056 [info] (29206): virtual workspace: vscode-terminal:/
+2026-10-14 17:02:24.058 [info] (29206): Starting service instance "<default>" for workspace "vscode-terminal:/"
+2026-10-14 17:02:24.255 [info] (29206): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-10-14 17:02:24.382 [info] (29206): FG(<default>): Setting environmentName for service "<default>": "Python 3.14.7"
+2026-10-14 17:02:24.382 [info] (29206): FG(<default>): No include entries specified; assuming vscode-terminal:/
+2026-10-14 17:02:24.383 [info] (29206): FG(<default>): Auto-excluding **/node_modules
+2026-10-14 17:02:24.383 [info] (29206): FG(<default>): Auto-excluding **/__pycache__
+2026-10-14 17:02:24.383 [info] (29206): FG(<default>): Auto-excluding **/.*
+2026-10-14 17:02:24.383 [info] (29206): FG(<default>): Auto-excluding **/__editable__.*
+2026-10-14 17:02:24.431 [info] (29206): FG(<default>): Assuming Python version 3.14.7.final.0
+2026-10-14 17:02:24.504 [info] (29206): FG(<default>): Skipping file enumeration for non-file URI scheme "vscode-terminal".
+2026-10-14 17:02:24.504 [info] (29206): FG(<default>): No source files found.
+2026-10-14 17:02:24.512 [info] (29206): PQ(sarthak_learn): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 17:02:24.515 [info] (29206): PQ(sarthak_learn): Priority queue background worker(2) started
+2026-10-14 17:02:24.977 [info] (29206): FG(sarthak_learn): IDX(sarthak_learn): Indexer background runner(3) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist (index)
+2026-10-14 17:02:24.977 [info] (29206): FG(sarthak_learn): IDX(sarthak_learn): Indexing(3) started
+2026-10-14 17:02:25.492 [info] (29206): FG(sarthak_learn): IDX(sarthak_learn): scanned(3) 306 files over 1 exec env
+2026-10-14 17:02:25.726 [info] (29206): FG(sarthak_learn): IDX(sarthak_learn): indexed(3) 306 files over 1 exec env
+2026-10-14 17:02:25.779 [info] (29206): FG(sarthak_learn): IDX(sarthak_learn): Indexing finished(3).
+2026-10-14 17:02:27.898 [info] (29206): [Editable Installs] Sandbox created successfully for Python /usr/bin/python
+2026-10-14 17:02:27.936 [info] (29206): [Editable Installs] Searching for pth files in site-packages directories: /usr/lib/python3.14/site-packages
+2026-10-14 17:02:27.937 [info] (29206): [Editable Installs] No .pth files found
+2026-10-14 17:02:27.938 [info] (29206): [Editable Installs] Completed pth file resolution. Successfully resolved 0 editable package(s).
+2026-10-14 17:02:37.463 [info] (29206): Go to Definition fell back to declaration because no source definition was found.

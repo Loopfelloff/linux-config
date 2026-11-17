@@ -1,0 +1,20 @@
+2026-10-12 12:34:18.495 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-10-12 12:34:19.088 [info] [test-by-project] Activating project-based testing mode
+2026-10-12 12:34:19.088 [info] [test-by-project] Discovering projects for workspace: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:19.088 [info] Native locator: Refresh started
+2026-10-12 12:34:19.088 [info] [test-by-project] Found 1 total Python projects from API
+2026-10-12 12:34:19.088 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-10-12 12:34:19.088 [info] [test-by-project] Creating adapter for: Sepsis-Mortality-Anaylis-Mimic-IV at file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:19.094 [info] [test-by-project] Registered 1 project(s) for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:19.103 [info] [test-by-project] Activated 1 project(s) for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:19.105 [info] [test-by-project] Subscribed to Python project changes
+2026-10-12 12:34:19.106 [info] Native locator: Refresh started
+2026-10-12 12:34:19.107 [info] [test-by-project] Subscribed to Python environment changes
+2026-10-12 12:34:19.120 [info] > conda info --json
+2026-10-12 12:34:19.169 [info] > pyenv which python
+2026-10-12 12:34:19.169 [info] cwd: .
+2026-10-12 12:34:19.185 [info] Active interpreter [global]:  /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:19.600 [info] Active interpreter [/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV]:  /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-12 12:34:19.602 [info] Native locator: Refresh finished in 515 ms
+2026-10-12 12:34:20.772 [info] [test-by-project] Environment change detected; re-discovering projects for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-12 12:34:30.752 [info] Starting Pylance language server.

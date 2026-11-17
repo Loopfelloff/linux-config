@@ -1,0 +1,116 @@
+2026-09-05 14:25:37.857 [info] Python-envs extension version: 1.36.0
+2026-09-05 14:25:37.857 [info] 
+=== Python Envs Configuration Levels ===
+2026-09-05 14:25:37.857 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-09-05 14:25:37.857 [info] [pet] Starting Python Locator /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/python-env-tools/bin/pet server
+2026-09-05 14:25:37.857 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-09-05 14:25:37.857 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-09-05 14:25:37.857 [info] Registering poetry manager (environments will be discovered lazily)
+2026-09-05 14:25:37.859 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/abhiyan/machine_learning/python_code/seventh_chapter"],"environmentDirectories":["/home/abhiyan/machine_learning/python_code/seventh_chapter/.venv","/home/abhiyan/machine_learning/python_code/seventh_chapter/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-05 14:25:37.883 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-09-05 14:25:37.946 [info] Discovered env: /usr/bin/python
+2026-09-05 14:25:37.961 [info] Discovered env: /usr/bin/python3.12
+2026-09-05 14:25:38.167 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at L (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:629081)
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:472:9)
+	at async V (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:629206)
+	at async t.registerCondaFeatures (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:648591)
+	at async t.safeRegister (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:290365)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:782813)]
+2026-09-05 14:25:38.170 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-09-05 14:25:38.173 [info] Refreshing Pyenv Environments
+2026-09-05 14:25:38.173 [info] Refreshing pyenv environments
+2026-09-05 14:25:38.173 [info] Refreshing Pipenv Environments
+2026-09-05 14:25:38.173 [info] Refreshing pipenv environments
+2026-09-05 14:25:38.173 [info] Refreshing Poetry Environments
+2026-09-05 14:25:38.173 [info] Refreshing poetry environments
+2026-09-05 14:25:38.475 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-09-05 14:25:38.482 [info] Discovered env: /usr/bin/python
+2026-09-05 14:25:38.484 [info] Discovered env: /usr/bin/python3.12
+2026-09-05 14:25:38.499 [info] [SYS_SET] scope=/home/abhiyan/machine_learning/python_code/seventh_chapter, project=/home/abhiyan/machine_learning/python_code/seventh_chapter, normalizedKey=/home/abhiyan/machine_learning/python_code/seventh_chapter, env=Python 3.14.6.final.0-k27up4hqdcl
+2026-09-05 14:25:38.580 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-09-05 14:25:38.582 [info] Python API: Changed environment from undefined to Python 3.14.6.final.0 for: /home/abhiyan/machine_learning/python_code/seventh_chapter
+2026-09-05 14:25:38.582 [info] Internal: Changed environment from undefined to Python 3.14.6.final.0 for: /home/abhiyan/machine_learning/python_code/seventh_chapter
+2026-09-05 14:25:38.582 [info] [interpreterSelection] seventh_chapter: Python 3.14.6.final.0 (source: autoDiscovery)
+2026-09-05 14:25:38.582 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-09-05 14:25:38.714 [info] Python API: Changed environment from undefined to Python 3.14.6.final.0 for: global
+2026-09-05 14:25:38.714 [info] Internal: Changed environment from undefined to Python 3.14.6.final.0 for: global
+2026-09-05 14:25:38.714 [info] [interpreterSelection] global: Python 3.14.6.final.0 (source: autoDiscovery)
+2026-09-05 14:25:38.727 [info] Discovered env: /usr/bin/python
+2026-09-05 14:25:38.765 [info] Discovered env: /usr/bin/python3.12
+2026-09-05 14:25:38.766 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.770 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.781 [info] Refreshing pyenv environments
+2026-09-05 14:25:38.826 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.831 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.834 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-09-05 14:25:38.841 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.854 [info] Pipenv not found via settings, cache, or PATH
+2026-09-05 14:25:38.855 [info] Refreshing pipenv environments
+2026-09-05 14:25:38.856 [info] Pipenv not found via settings, cache, or PATH
+2026-09-05 14:25:38.856 [info] Found 0 pipenv environments
+2026-09-05 14:25:38.857 [info] Pipenv not found via settings, cache, or PATH
+2026-09-05 14:25:38.859 [info] Using poetry from persistent state: /usr/bin/poetry
+2026-09-05 14:25:38.859 [info] Refreshing poetry environments
+2026-09-05 14:25:38.860 [info] Environment discovery complete: 2 environments found (Global: 2)
+2026-09-05 14:25:38.916 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.921 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.925 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.929 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.932 [info] Discovered env: /usr/bin/python
+2026-09-05 14:25:38.932 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.969 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.974 [info] Discovered env: /usr/bin/python3.12
+2026-09-05 14:25:38.974 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.977 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.980 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.982 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:38.985 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.011 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.016 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.022 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.024 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.027 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.030 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.037 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.041 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-09-05 14:25:39.046 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.089 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.094 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.131 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.134 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.152 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.167 [info] Discovered env: /usr/bin/python
+2026-09-05 14:25:39.175 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.180 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.183 [info] Discovered env: /usr/bin/python3.12
+2026-09-05 14:25:39.189 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.192 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.201 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.205 [info] Resolved Python Environment /usr/bin/python
+2026-09-05 14:25:39.225 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-09-05 14:25:39.296 [info] Discovered env: /usr/bin/python
+2026-09-05 14:25:39.330 [info] Discovered env: /usr/bin/python3.12
+2026-09-05 14:25:39.338 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-09-05 14:25:39.339 [info] Pipenv not found via settings, cache, or PATH
+2026-09-05 14:25:39.339 [info] Found 0 pipenv environments
+2026-09-05 14:25:39.425 [info] Discovered env: /usr/bin/python
+2026-09-05 14:25:39.436 [info] Discovered env: /usr/bin/python3.12
+2026-09-05 14:25:40.519 [error] [pet] [2m   2.713084566s[0m [33m WARN[0m [2mpet_poetry::telemetry[0m[2m:[0m Poetry virtualenvs.in-project is different from the one we found: None != Some(true)
+

@@ -1,41 +1,30 @@
 /* ===============================
-   Global
+   TACTICAL THEME - BLACK
 ================================ */
 
+@define-color bg        #000000;
+@define-color bg-hover  #0d0d0d;
+@define-color line      #2a2a24;
+@define-color amber     #e0a526;
+@define-color orange    #e8762c;
+@define-color cream     #efe4c4;
+@define-color dim       #6f6c5c;
+@define-color olive     #8a9a4b;
+@define-color teal      #5aa9a0;
+@define-color red       #d9473f;
+
 * {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 15px;
+    font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", "Courier New", monospace;
+    font-size: 14px;
     font-weight: bold;
-}
-
-box.horizontal {
-    background-color : rgba(0,0,0,0.5);
-    padding : 2px 0;
-}
-
-#modules-left {
-    background-color : #111111;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
 }
 
 window#waybar {
     background-color: transparent;
-    color: #ffffff;
-    transition: background-color .5s;
-}
-
-/* ===============================
-   Buttons
-================================ */
-
-button {
-    box-shadow: inset 0 -3px transparent;
-    border: none;
-    border-radius: 0;
-}
-
-button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px rgba(255,255,255,0.5);
+    color: @cream;
 }
 
 /* ===============================
@@ -43,117 +32,118 @@ button:hover {
 ================================ */
 
 #workspaces {
-    margin: 0 4px;
+    background-color: @bg;
+    border: 1px solid @line;
+    border-left: 3px solid @amber;
+    margin: 2px 4px;
+    padding: 0 4px;
 }
 
 #workspaces button {
-    padding: 4px 8px;
-    color : white;
+    padding: 0 10px;
+    margin: 2px 1px;
+    font-size: 16px;
+    color: @dim;
+    background: transparent;
+    box-shadow: inset 0 -2px transparent;
 }
 
-#workspaces button.focused,
-#workspaces button.active {
-    box-shadow: inset 0 -3px white;
+#workspaces button:hover {
+    background: @bg-hover;
+    color: @cream;
+    box-shadow: inset 0 -2px @dim;
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+    background: @bg;
+    color: @amber;
+    box-shadow: inset 0 -2px @amber;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: @red;
+    color: @bg;
 }
 
 /* ===============================
-   Window Title
+   Audio-by-workspace indicator
 ================================ */
 
-#window {
-    background-color: rgba(255,255,255,0.5);
-    padding: 0 8px;
-    border: 1px solid white;
-    border-radius: 6px;
-    margin: 0 4px;
+#custom-audio {
+    background-color: @bg;
+    color: @orange;
+    border: 1px solid @line;
+    border-left: 3px solid @orange;
+    margin: 2px 4px;
+    padding: 0 12px;
 }
 
 /* ===============================
-   GROUP FIX (THE IMPORTANT PART)
+   System group
 ================================ */
 
-/* Outer group container */
-#group-system {
-    margin: 0 4px;
+#system {
+    background-color: @bg;
+    border: 1px solid @line;
+    border-right: 3px solid @amber;
+    margin: 2px 4px;
+    padding: 0 4px;
 }
 
-#group-system > box {
-    background-color: rgba(255,255,255,0.5);
-    padding: 0 10px;
-    border: 1px solid white;
-    border-radius: 6px;
-}
-
-
-/* ===============================
-   Module Base Style
-================================ */
-
-#clock,
-#battery,
+#pulseaudio,
+#network,
 #cpu,
 #memory,
-#temperature,
 #backlight,
-#network,
-#pulseaudio {
+#battery,
+#clock {
     background: transparent;
-    padding: 0 10px;
-    border-top : 1px solid white;
-    border-bottom: 1px solid white;
-    border-right : 1px solid white;
-    border-left : 1px solid white;
-    border-radius : 6px 6px 6px 6px;
-    color : white;
-    font-weight : bold;
-    margin : 0 5px;
+    color: @cream;
+    padding: 0 12px;
+    margin: 2px 0;
+    border-left: 1px solid @line;
+}
+
+#pulseaudio { border-left: none; color: @amber; }
+#network    { color: @teal; }
+#cpu        { color: @olive; }
+#memory     { color: @orange; }
+#backlight  { color: @cream; }
+#battery    { color: @cream; }
+#clock      { color: @amber; }
+
+/* ===============================
+   States
+================================ */
+
+#pulseaudio.muted,
+#pulseaudio.source-muted { color: @dim; }
+
+#network.disconnected { color: @red; }
+
+#battery.charging,
+#battery.plugged { color: @olive; }
+
+#battery.warning:not(.charging) { color: @orange; }
+
+#battery.critical:not(.charging) {
+    color: @red;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to { color: @bg; }
 }
 
 /* ===============================
-   Individual Colors
+   Tooltips
 ================================ */
 
-#clock { 
+tooltip {
+    background-color: @bg;
+    border: 1px solid @amber;
+    border-radius: 0;
 }
 
-#battery { 
-}
-
-#cpu { 
-    background-color : #C9BEFF;
-}
-
-#memory { 
-    background-color :#89D4FF;
-}
-
-#backlight { 
-}
-
-
-#network {  
-    background-color : #8494FF;
-}
-
-#network.disconnected { 
-    color: red; 
-    background-color : rgba(255, 255,255,0.5);
-}
-
-#pulseaudio { 
-    background-color : #6367FF;
-
-}
-
-#temperature { 
-    background-color : rgba(255, 255,255,0.5);
-}
-
-#temperature.critical { color: red; 
-    background-color : rgba(255, 255,255,0.5);
-}
-
+tooltip label { color: @cream; }

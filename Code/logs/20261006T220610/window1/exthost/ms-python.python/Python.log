@@ -1,0 +1,21 @@
+2026-10-06 22:06:15.153 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-10-06 22:06:15.791 [info] [test-by-project] Activating project-based testing mode
+2026-10-06 22:06:15.791 [info] [test-by-project] Discovering projects for workspace: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.791 [info] Native locator: Refresh started
+2026-10-06 22:06:15.791 [info] [test-by-project] Found 1 total Python projects from API
+2026-10-06 22:06:15.791 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-10-06 22:06:15.791 [info] [test-by-project] Creating adapter for: Sepsis-Mortality-Anaylis-Mimic-IV at file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.799 [info] [test-by-project] Registered 1 project(s) for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.808 [info] [test-by-project] Activated 1 project(s) for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.811 [info] [test-by-project] Subscribed to Python project changes
+2026-10-06 22:06:15.811 [info] Native locator: Refresh started
+2026-10-06 22:06:15.813 [info] [test-by-project] Subscribed to Python environment changes
+2026-10-06 22:06:15.831 [info] > conda info --json
+2026-10-06 22:06:15.865 [info] > pyenv which python
+2026-10-06 22:06:15.865 [info] cwd: .
+2026-10-06 22:06:15.898 [info] Active interpreter [global]:  /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-06 22:06:16.624 [info] Native locator: Refresh finished in 833 ms
+2026-10-06 22:06:18.142 [info] [test-by-project] Environment change detected; re-discovering projects for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:18.397 [info] Starting Pylance language server.
+2026-10-06 22:06:18.400 [info] Active interpreter [/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV]:  /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-06 22:11:29.686 [info] Active interpreter [/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb]:  /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python

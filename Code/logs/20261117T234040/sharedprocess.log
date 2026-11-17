@@ -1,0 +1,4 @@
+2026-11-17 23:40:42.330 [info] Marked extension as removed ms-python.python-2026.8.0-linux-x64
+2026-11-17 23:40:42.330 [info] Marked extension as removed ms-python.vscode-python-envs-1.38.0-linux-x64
+2026-11-17 23:40:42.660 [info] Deleted marked for removal extension from disk ms-python.vscode-python-envs /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64
+2026-11-17 23:40:42.685 [info] Deleted marked for removal extension from disk ms-python.python /home/abhiyan/.vscode/extensions/ms-python.python-2026.8.0-linux-x64

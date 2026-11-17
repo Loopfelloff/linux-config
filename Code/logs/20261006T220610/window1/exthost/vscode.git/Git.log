@@ -1,0 +1,58 @@
+2026-10-06 22:06:15.323 [info] [main] Log level: Info
+2026-10-06 22:06:15.324 [info] [main] Validating found git in: "git"
+2026-10-06 22:06:15.324 [info] [main] Using git "2.55.0" from "git"
+2026-10-06 22:06:15.324 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-06 22:06:15.324 [info] > git rev-parse --show-toplevel [21ms]
+2026-10-06 22:06:15.324 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2026-10-06 22:06:15.398 [info] [Model][openRepository] Opened repository (path): /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.398 [info] [Model][openRepository] Opened repository (real path): /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.398 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-06 22:06:15.446 [info] > git config --get commit.template [30ms]
+2026-10-06 22:06:15.447 [info] > git config --get --local core.virtualfilesystem [38ms]
+2026-10-06 22:06:15.447 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-06 22:06:15.451 [info] > git rev-parse --show-toplevel [29ms]
+2026-10-06 22:06:15.489 [info] > git rev-parse --show-toplevel [8ms]
+2026-10-06 22:06:15.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2026-10-06 22:06:15.514 [info] > git rev-parse --show-toplevel [13ms]
+2026-10-06 22:06:15.545 [info] > git status -z -uall [21ms]
+2026-10-06 22:06:15.548 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-10-06 22:06:15.580 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [38ms]
+2026-10-06 22:06:15.584 [info] > git config --get commit.template [5ms]
+2026-10-06 22:06:15.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2026-10-06 22:06:15.604 [info] > git config --get --local branch.main.vscode-merge-base [14ms]
+2026-10-06 22:06:15.616 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2026-10-06 22:06:15.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2026-10-06 22:06:15.644 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2026-10-06 22:06:15.655 [info] > git status -z -uall [19ms]
+2026-10-06 22:06:15.655 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% b414efe897331501a2915d2b0181bde96ae45276...refs/remotes/origin/main -- [3ms]
+2026-10-06 22:06:15.656 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-10-06 22:06:15.672 [info] [Model][openRepository] Opened repository (path): /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/mimic-code
+2026-10-06 22:06:15.672 [info] [Model][openRepository] Opened repository (real path): /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/mimic-code
+2026-10-06 22:06:15.673 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-06 22:06:15.700 [info] > git config --get commit.template [11ms]
+2026-10-06 22:06:15.700 [info] > git config --get --local core.virtualfilesystem [19ms]
+2026-10-06 22:06:15.701 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-06 22:06:15.702 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-06 22:06:15.722 [info] > git rev-parse --show-toplevel [6ms]
+2026-10-06 22:06:15.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2026-10-06 22:06:15.734 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/mimic-code/.git/refs/remotes/origin/main'
+2026-10-06 22:06:15.735 [info] > git rev-parse --show-toplevel [7ms]
+2026-10-06 22:06:15.738 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-06 22:06:15.739 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2026-10-06 22:06:15.764 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-10-06 22:06:16.219 [info] > git status -z -uall [474ms]
+2026-10-06 22:06:16.398 [info] > git config --get commit.template [41ms]
+2026-10-06 22:06:16.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [166ms]
+2026-10-06 22:06:16.413 [info] > git check-ignore -v -z --stdin [30ms]
+2026-10-06 22:06:16.414 [info] > git check-ignore -v -z --stdin [24ms]
+2026-10-06 22:06:16.468 [info] > git config --get --local branch.main.vscode-merge-base [63ms]
+2026-10-06 22:06:16.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [39ms]
+2026-10-06 22:06:16.493 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/mimic-code/.git/refs/remotes/origin/main'
+2026-10-06 22:06:16.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [66ms]
+2026-10-06 22:06:16.561 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2026-10-06 22:06:16.569 [info] > git rev-parse refs/remotes/origin/main [76ms]
+2026-10-06 22:06:16.593 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 303d26c623dcc9c49cc0f204468d4acc2f063797...refs/remotes/origin/main -- [24ms]
+2026-10-06 22:06:16.613 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2026-10-06 22:06:16.823 [info] > git status -z -uall [247ms]
+2026-10-06 22:06:46.348 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [188ms]
+2026-10-06 22:06:46.462 [info] > git merge-base main origin/main [2ms]

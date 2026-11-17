@@ -1,0 +1,29 @@
+2026-09-05 14:25:36.272 [warning] [LM] Failed to request chat control data Offline
+2026-09-05 14:25:36.364 [info] Started local extension host with pid 22870.
+2026-09-05 14:25:36.418 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-09-05 14:25:37.107 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-05 14:25:37.265 [error] [Extension Host] (node:22870) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-05 14:25:37.266 [error] [Extension Host] (node:22870) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-09-05 14:25:37.576 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-05 14:25:39.820 [error] Offline: Offline
+    at _in (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5370:52142)
+    at async fCt.logAndRequest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1026:11061)
+    at async w7e.doFetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5862:3195)
+    at async w7e.fetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5862:3103)
+2026-09-05 14:25:39.853 [info] [perf] Render performance baseline is 18ms
+2026-09-05 14:25:40.328 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-05 14:25:42.104 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-05 14:25:48.729 [error] Offline: Offline: Offline
+    at qlt.getLatestRawGalleryExtension (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:53485)
+    at async qlt.getLatestRawGalleryExtensionWithFallback (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:51989)
+    at async qlt.getLatestGalleryExtension (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:40444)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:39532
+    at async Promise.all (index 3)
+    at async qlt.getExtensionsUsingResourceApi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:39486)
+    at async qlt.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:37948)
+    at async hX.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3821:22659)
+    at async rti.getInstallableRecommendations (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3817:21588)
+    at async rti.getAllRecommendationsModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3817:25229)
+    at async rti.queryGallery (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3817:17309)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3817:6588

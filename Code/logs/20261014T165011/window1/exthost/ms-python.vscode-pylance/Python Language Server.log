@@ -1,0 +1,68 @@
+2026-10-14 16:50:39.268 [info] Client: Pylance shadow experiment not started: untrustedWorkspace.
+2026-10-14 16:50:39.776 [info] Client: Pylance client (2026.4.1) started with python extension (Unknown)
+2026-10-14 16:50:40.455 [info] (28627): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 16:50:40.455 [info] (28627): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-10-14 16:50:40.466 [info] (28627): Starting service instance "sarthak_learn" for workspace "/home/abhiyan/sarthak_learn"
+2026-10-14 16:50:41.618 [info] (28627): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/abhiyan/sarthak_learn...
+2026-10-14 16:50:41.676 [info] (28627): Starting Mcp server id:35493 ...
+2026-10-14 16:50:41.712 [info] (28627): FG(sarthak_learn): No include entries specified; assuming /home/abhiyan/sarthak_learn
+2026-10-14 16:50:41.713 [info] (28627): FG(sarthak_learn): Auto-excluding **/node_modules
+2026-10-14 16:50:41.713 [info] (28627): FG(sarthak_learn): Auto-excluding **/__pycache__
+2026-10-14 16:50:41.713 [info] (28627): FG(sarthak_learn): Auto-excluding **/.*
+2026-10-14 16:50:41.714 [info] (28627): FG(sarthak_learn): Auto-excluding **/__editable__.*
+2026-10-14 16:50:41.739 [info] (28627): FG(sarthak_learn): Found 1 source file
+2026-10-14 16:50:41.748 [info] (28627): Settings have not changed. Skipping update.
+2026-10-14 16:50:42.405 [info] (28627): PQ(sarthak_learn): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 16:50:42.405 [info] (28627): PQ(sarthak_learn): Priority queue background worker(2) started
+2026-10-14 16:56:08.014 [info] (28627): Starting service instance "<default>" for workspace ""
+2026-10-14 16:56:08.014 [info] (28627): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into ...
+2026-10-14 16:56:08.038 [info] (28627): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-10-14 16:56:08.038 [info] (28627): FG(<default>): Auto-excluding **/node_modules
+2026-10-14 16:56:08.039 [info] (28627): FG(<default>): Auto-excluding **/__pycache__
+2026-10-14 16:56:08.039 [info] (28627): FG(<default>): Auto-excluding **/.*
+2026-10-14 16:56:08.039 [info] (28627): FG(<default>): Auto-excluding **/__editable__.*
+2026-10-14 16:56:08.057 [error] (28627): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-10-14 16:56:08.057 [info] (28627): FG(<default>): No source files found.
+2026-10-14 16:56:08.624 [info] (28627): PQ(<default>): Priority queue background worker(4) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 16:56:08.625 [info] (28627): PQ(<default>): Priority queue background worker(4) started
+2026-10-14 16:56:47.138 [info] (28627): FG(sarthak_learn): Found 1 source file
+2026-10-14 16:56:47.139 [info] (28627): MCP server closed successfully.
+2026-10-14 16:56:47.139 [info] (28627): Starting Mcp server id:40813 ...
+2026-10-14 16:56:47.139 [error] (28627): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-10-14 16:56:47.139 [info] (28627): FG(<default>): No source files found.
+2026-10-14 16:56:47.178 [info] (28627): FG(sarthak_learn): No include entries specified; assuming /home/abhiyan/sarthak_learn
+2026-10-14 16:56:47.178 [info] (28627): FG(sarthak_learn): Auto-excluding **/node_modules
+2026-10-14 16:56:47.178 [info] (28627): FG(sarthak_learn): Auto-excluding **/__pycache__
+2026-10-14 16:56:47.178 [info] (28627): FG(sarthak_learn): Auto-excluding **/.*
+2026-10-14 16:56:47.178 [info] (28627): FG(sarthak_learn): Auto-excluding **/__editable__.*
+2026-10-14 16:56:47.218 [info] (28627): FG(sarthak_learn): Assuming Python version 3.14.7.final.0
+2026-10-14 16:56:47.321 [info] (28627): FG(sarthak_learn): Found 1 source file
+2026-10-14 16:56:47.332 [info] (28627): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-10-14 16:56:47.332 [info] (28627): FG(<default>): Auto-excluding **/node_modules
+2026-10-14 16:56:47.332 [info] (28627): FG(<default>): Auto-excluding **/__pycache__
+2026-10-14 16:56:47.332 [info] (28627): FG(<default>): Auto-excluding **/.*
+2026-10-14 16:56:47.332 [info] (28627): FG(<default>): Auto-excluding **/__editable__.*
+2026-10-14 16:56:47.369 [info] (28627): FG(<default>): Assuming Python version 3.14.7.final.0
+2026-10-14 16:56:48.017 [error] (28627): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-10-14 16:56:48.038 [info] (28627): FG(<default>): No source files found.
+2026-10-14 16:56:48.069 [info] (28627): FG(sarthak_learn): IDX(sarthak_learn): Indexer background runner(5) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist (index)
+2026-10-14 16:56:48.069 [info] (28627): FG(sarthak_learn): IDX(sarthak_learn): Indexing(5) started
+2026-10-14 16:56:48.382 [info] (28627): Settings have not changed. Skipping update.
+2026-10-14 16:56:48.387 [info] (28627): Settings have not changed. Skipping update.
+2026-10-14 16:56:48.711 [info] (28627): FG(sarthak_learn): IDX(sarthak_learn): scanned(5) 306 files over 1 exec env
+2026-10-14 16:56:52.117 [info] (28627): virtual workspace: vscode-terminal:/
+2026-10-14 16:56:52.120 [info] (28627): Starting service instance "<default>" for workspace "vscode-terminal:/"
+2026-10-14 16:56:52.160 [info] (28627): FG(<default>): No include entries specified; assuming vscode-terminal:/
+2026-10-14 16:56:52.161 [info] (28627): FG(<default>): Auto-excluding **/node_modules
+2026-10-14 16:56:52.161 [info] (28627): FG(<default>): Auto-excluding **/__pycache__
+2026-10-14 16:56:52.161 [info] (28627): FG(<default>): Auto-excluding **/.*
+2026-10-14 16:56:52.161 [info] (28627): FG(<default>): Auto-excluding **/__editable__.*
+2026-10-14 16:56:52.205 [info] (28627): FG(<default>): Assuming Python version 3.14.7.final.0
+2026-10-14 16:56:52.284 [info] (28627): FG(sarthak_learn): IDX(sarthak_learn): Long operation: index execution environment file:///home/abhiyan/sarthak_learn (3200ms)
+2026-10-14 16:56:52.285 [info] (28627): FG(sarthak_learn): IDX(sarthak_learn): Long operation: index packages file:///home/abhiyan/sarthak_learn (3252ms)
+2026-10-14 16:56:52.285 [info] (28627): FG(sarthak_learn): IDX(sarthak_learn): indexed(5) 306 files over 1 exec env
+2026-10-14 16:56:52.289 [info] (28627): FG(<default>): Skipping file enumeration for non-file URI scheme "vscode-terminal".
+2026-10-14 16:56:52.289 [info] (28627): FG(<default>): No source files found.
+2026-10-14 16:56:52.358 [info] (28627): FG(sarthak_learn): IDX(sarthak_learn): Indexing finished(5).
+2026-10-14 16:59:44.765 [info] (28627): Go to Definition fell back to declaration because no source definition was found.
+2026-10-14 17:01:19.840 [info] (28627): Go to Definition fell back to declaration because no source definition was found.

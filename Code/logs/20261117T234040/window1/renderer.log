@@ -1,0 +1,8 @@
+2026-11-17 23:40:41.862 [info] Started local extension host with pid 29172.
+2026-11-17 23:40:41.901 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-11-17 23:40:42.168 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-11-17 23:40:42.176 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-11-17 23:40:42.209 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-11-17 23:40:42.810 [info] [AgentHost:renderer] Protocol connection established; clientId=8285ca86-bda3-428c-b896-c99d2353e3b9
+2026-11-17 23:40:42.859 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-11-17 23:40:43.154 [error] [AgentHost] Failed to authenticate with server Canceled

@@ -1,0 +1,58 @@
+2026-10-14 16:50:15.194 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-10-14 16:50:15.930 [info] [test-by-project] Activating project-based testing mode
+2026-10-14 16:50:15.930 [info] [test-by-project] Discovering projects for workspace: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:15.931 [info] Native locator: Refresh started
+2026-10-14 16:50:15.931 [info] [test-by-project] Found 1 total Python projects from API
+2026-10-14 16:50:15.931 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-10-14 16:50:15.931 [info] [test-by-project] Creating adapter for: Sepsis-Mortality-Anaylis-Mimic-IV at file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:15.943 [info] [test-by-project] Registered 1 project(s) for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:15.956 [info] [test-by-project] Activated 1 project(s) for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:15.961 [info] [test-by-project] Subscribed to Python project changes
+2026-10-14 16:50:15.963 [info] Native locator: Refresh started
+2026-10-14 16:50:15.964 [info] [test-by-project] Subscribed to Python environment changes
+2026-10-14 16:50:15.986 [info] > conda info --json
+2026-10-14 16:50:16.392 [info] > pyenv which python
+2026-10-14 16:50:16.392 [info] cwd: .
+2026-10-14 16:50:16.657 [info] Active interpreter [global]:  /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-14 16:50:16.832 [info] Active interpreter [/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV]:  /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-14 16:50:16.835 [info] Native locator: Refresh finished in 905 ms
+2026-10-14 16:50:18.376 [info] [test-by-project] Environment change detected; re-discovering projects for /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-14 16:50:18.553 [info] Starting Pylance language server.
+2026-10-14 16:56:48.024 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-10-14 16:56:48.181 [info] [test-by-project] Activating project-based testing mode
+2026-10-14 16:56:48.181 [info] [test-by-project] Discovering projects for workspace: /home/abhiyan/sarthak_learn
+2026-10-14 16:56:48.182 [info] Native locator: Refresh started
+2026-10-14 16:56:48.182 [info] [test-by-project] Found 1 total Python projects from API
+2026-10-14 16:56:48.182 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-10-14 16:56:48.182 [info] [test-by-project] Creating adapter for: sarthak_learn at file:///home/abhiyan/sarthak_learn
+2026-10-14 16:56:48.183 [info] Native locator: Refresh started
+2026-10-14 16:56:48.376 [info] [test-by-project] Registered 1 project(s) for /home/abhiyan/sarthak_learn
+2026-10-14 16:56:48.379 [info] [test-by-project] Activated 1 project(s) for /home/abhiyan/sarthak_learn
+2026-10-14 16:56:48.379 [info] [test-by-project] Subscribed to Python project changes
+2026-10-14 16:56:48.379 [info] [test-by-project] Subscribed to Python environment changes
+2026-10-14 16:56:48.471 [info] Active interpreter [/home/abhiyan/sarthak_learn]:  /usr/bin/python
+2026-10-14 16:56:48.478 [info] Starting Pylance language server.
+2026-10-14 16:56:49.199 [info] Native locator: Refresh finished in 1017 ms
+2026-10-14 16:56:49.212 [info] > pyenv which python
+2026-10-14 16:56:49.212 [info] cwd: .
+2026-10-14 16:56:49.271 [info] Active interpreter [global]:  /usr/bin/python
+2026-10-14 16:56:49.480 [info] [test-by-project] Environment change detected; re-discovering projects for /home/abhiyan/sarthak_learn
+2026-10-14 17:02:20.852 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-10-14 17:02:20.932 [info] [test-by-project] Activating project-based testing mode
+2026-10-14 17:02:20.932 [info] [test-by-project] Discovering projects for workspace: /home/abhiyan/sarthak_learn
+2026-10-14 17:02:20.933 [info] Native locator: Refresh started
+2026-10-14 17:02:20.933 [info] [test-by-project] Found 1 total Python projects from API
+2026-10-14 17:02:20.933 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-10-14 17:02:20.933 [info] [test-by-project] Creating adapter for: sarthak_learn at file:///home/abhiyan/sarthak_learn
+2026-10-14 17:02:21.013 [info] > conda info --json
+2026-10-14 17:02:21.198 [info] > pyenv which python
+2026-10-14 17:02:21.198 [info] cwd: .
+2026-10-14 17:02:21.226 [info] Active interpreter [/home/abhiyan/sarthak_learn]:  /usr/bin/python
+2026-10-14 17:02:21.270 [info] Active interpreter [global]:  /usr/bin/python
+2026-10-14 17:02:21.282 [info] [test-by-project] Registered 1 project(s) for /home/abhiyan/sarthak_learn
+2026-10-14 17:02:21.285 [info] [test-by-project] Activated 1 project(s) for /home/abhiyan/sarthak_learn
+2026-10-14 17:02:21.285 [info] [test-by-project] Subscribed to Python project changes
+2026-10-14 17:02:21.285 [info] [test-by-project] Subscribed to Python environment changes
+2026-10-14 17:02:21.345 [info] Native locator: Refresh finished in 413 ms
+2026-10-14 17:02:22.330 [info] [test-by-project] Environment change detected; re-discovering projects for /home/abhiyan/sarthak_learn
+2026-10-14 17:02:22.663 [info] Starting Pylance language server.

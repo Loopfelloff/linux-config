@@ -1,0 +1,68 @@
+2026-11-06 10:15:30.140 [info] Started local extension host with pid 9149.
+2026-11-06 10:15:30.365 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-11-06 10:15:31.196 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-11-06 10:15:31.219 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-11-06 10:15:31.582 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-11-06 10:15:31.805 [error] [Extension Host] (node:9149) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-11-06 10:15:31.817 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-11-06 10:15:32.078 [info] [AgentHost:renderer] Protocol connection established; clientId=4e8d74f5-d8cd-494c-b6cb-48df945b8942
+2026-11-06 10:15:32.209 [error] [Extension Host] (node:9149) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-06 10:15:32.347 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.347 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.348 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.348 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.348 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.348 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.348 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.349 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.349 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.349 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.467 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.467 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.468 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.468 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.469 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.470 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.502 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.502 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.503 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.503 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.584 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.585 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.585 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.585 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.585 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.586 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.649 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.649 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.649 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.650 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:15:32.690 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.690 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.690 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.691 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.691 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.691 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.747 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.748 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.748 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.748 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:15:32.953 [info] [perf] Render performance baseline is 16ms
+2026-11-06 10:15:33.413 [info] Auto updating outdated extensions. ms-python.python, ms-python.vscode-python-envs
+2026-11-06 10:15:34.255 [info] Auto updating outdated extensions. ms-python.python, ms-python.vscode-python-envs
+2026-11-06 10:15:36.582 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-11-06 10:16:06.031 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/abhiyan/sarthak_learn/index.py 
+2026-11-06 10:16:06.865 [info] Started local extension host with pid 12285.
+2026-11-06 10:16:07.033 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-11-06 10:16:07.213 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-11-06 10:16:07.216 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-11-06 10:16:07.220 [info] [AgentHost:renderer] Protocol connection established; clientId=e54a3e00-1ab2-4fbc-9d3c-647ef1dc8d4c
+2026-11-06 10:16:07.276 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-11-06 10:16:07.804 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-11-06 10:16:07.914 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:16:07.917 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:16:07.919 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-11-06 10:16:07.922 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-11-06 10:16:09.579 [info] [perf] Render performance baseline is 18ms
+2026-11-06 10:16:12.277 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

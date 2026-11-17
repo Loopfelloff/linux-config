@@ -1,93 +1,118 @@
 {
-    "layer": "top", 
-    // "position": "left", // Waybar position (top|bottom|left|right) this one is okay ish i suppose
-    "height": 30,  // remove it to get auto value
-    // "width": 1280, // Waybar width
-    "spacing": 4, // gaps in px 
+    "layer": "top",
+    "height": 30,
+    "spacing": 4,
+
     "modules-left": [
-        //"hyprland/window" // shows which window is active
-        "hyprland/workspaces" // basically shows which workspace is active right now
+        "hyprland/workspaces",
+        "custom/audio"
     ],
-    "modules-center": [
-    ],
+    "modules-center": [],
     "modules-right": [
-    	"group/system"
+        "group/system"
     ],
+
     "group/system": {
-    "orientation": "horizontal",
-    "modules": [
-        "pulseaudio",
-        "network",
-        "cpu",
-        "memory",
-        "temperature",
-        "backlight",
-        "battery",
-        "clock"
-    ]
-  },
-    // Modules configuration
-      "wlr/workspaces": {
-         "format": "{icon}"
-     },
-    "clock": {
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}" // this is when you click the clock thing
+        "orientation": "horizontal",
+        "modules": [
+            "pulseaudio",
+            "network",
+            "cpu",
+            "memory",
+            "backlight",
+            "battery",
+            "clock"
+        ]
     },
+
+    "hyprland/workspaces": {
+        "format": "{id} {windows}",
+        "format-window-separator": " ",
+        "on-click": "activate",
+        "window-rewrite-default": "\uf2d0",
+        "window-rewrite": {
+            "class<kitty>": "\uf120",
+            "class<[Aa]lacritty>": "\uf120",
+            "class<[Ff]irefox>": "\uf269",
+            "class<[Ff]irefox> title<.*[Yy]ou[Tt]ube.*>": "\uf167",
+            "class<[Cc]hromium>": "\uf268",
+            "class<[Gg]oogle-chrome>": "\uf268",
+            "class<[Bb]rave-browser>": "\uf268",
+            "class<[Cc]ode>": "\ue70c",
+            "class<[Cc]ode-oss>": "\ue70c",
+            "class<[Dd]iscord>": "\uf392",
+            "class<[Vv]esktop>": "\uf392",
+            "class<org.telegram.desktop>": "\uf2c6",
+            "class<[Ss]potify>": "\uf1bc",
+            "class<[Ss]team>": "\uf1b6",
+            "class<[Tt]hunar>": "\uf07b",
+            "class<org.gnome.Nautilus>": "\uf07b",
+            "class<[Pp]cmanfm>": "\uf07b",
+            "class<mpv>": "\uf03d",
+            "class<vlc>": "\uf03d",
+            "class<org.pwmt.zathura>": "\uf1c1",
+            "class<[Pp]avucontrol>": "\uf028",
+            "class<[Oo]bsidian>": "\uf02d",
+            "class<[Ss]lack>": "\uf198",
+            "class<[Gg]imp.*>": "\uf03e",
+            "class<[Ee]og>": "\uf03e"
+        }
+    },
+
+    // Shows which workspaces currently have audio playing
+    "custom/audio": {
+        "exec": "$HOME/.config/waybar/scripts/audio-workspaces.py",
+        "return-type": "json",
+        "interval": 2
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%Y-%m-%d}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
     "cpu": {
-        "format": "{usage}% ",
+        "format": "CPU {usage}%",
         "tooltip": false
     },
+
     "memory": {
-        "format": "{}% "
+        "format": "MEM {}%"
     },
-    "temperature": {
-        "critical-threshold": 80,
-        "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
-    },
+
     "backlight": {
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+        "format": "BRT {percent}%"
     },
+
     "battery": {
         "states": {
             "good": 95,
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-icons": ["", "", "", "", ""],
+        "format": "BAT {capacity}%",
+        "format-full": "BAT {capacity}%",
+        "format-charging": "BAT {capacity}% +",
+        "format-plugged": "BAT {capacity}% AC",
         "tooltip": false
     },
+
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{signalStrength}% ",
-        "format-ethernet": "{ipaddr}/{cidr}",
-        "format-linked": "{ifname} (No IP)", 
-        "format-disconnected": "Disconnected ⚠",
-	"tooltip-format" : "{essid}"
-        //"tooltip-format": "{ifname}: {ipaddr}/{cidr}"
+        "format-wifi": "NET {signalStrength}%",
+        "format-ethernet": "NET {ipaddr}/{cidr}",
+        "format-linked": "NET {ifname} (NO IP)",
+        "format-disconnected": "NET OFFLINE",
+        "tooltip-format": "{essid}"
     },
+
     "pulseaudio": {
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "  {volume}% ",
-        "format-source-muted": "",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
+        "format": "VOL {volume}%  {format_source}",
+        "format-bluetooth": "BT {volume}%  {format_source}",
+        "format-bluetooth-muted": "BT MUTE  {format_source}",
+        "format-muted": "VOL MUTE  {format_source}",
+        "format-source": "MIC {volume}%",
+        "format-source-muted": "MIC OFF",
         "on-click": "pavucontrol"
     }
 }

@@ -1,0 +1,13 @@
+2026-09-05 14:25:37.898 [info] Marked extension as removed gelio.temporary-vim-motions-0.0.3
+2026-09-05 14:25:38.051 [info] Deleted marked for removal extension from disk gelio.temporary-vim-motions /home/abhiyan/.vscode/extensions/gelio.temporary-vim-motions-0.0.3
+2026-09-05 14:25:40.516 [error] [uncaught exception in sharedProcess]: Offline: Offline: Offline: Offline: Offline
+    at qlt.getLatestRawGalleryExtension (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:53485)
+    at async qlt.getLatestRawGalleryExtensionWithFallback (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:51989)
+    at async qlt.getLatestGalleryExtension (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:40444)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:39532
+    at async Promise.all (index 1)
+    at async qlt.getExtensionsUsingResourceApi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:39486)
+    at async qlt.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2040:37948)
+    at async hX.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3821:22659)
+    at async XGe.getInstallableExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3809:10518)
+    at async XGe.promptRecommendationsNotification (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3809:6337)

@@ -1,0 +1,20 @@
+2026-09-05 14:25:39.234 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-09-05 14:25:39.291 [info] (23243): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-05 14:25:39.293 [info] (23243): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-09-05 14:25:39.293 [info] (23243): Starting service instance "seventh_chapter" for workspace "/home/abhiyan/machine_learning/python_code/seventh_chapter"
+2026-09-05 14:25:40.187 [info] (23243): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/abhiyan/machine_learning/python_code/seventh_chapter...
+2026-09-05 14:25:40.266 [info] (23243): Starting Mcp server id:36346 ...
+2026-09-05 14:25:40.285 [info] (23243): FG(seventh_chapter): Setting environmentName for service "seventh_chapter": "Python 3.14.6.final.0"
+2026-09-05 14:25:40.285 [info] (23243): FG(seventh_chapter): Setting pythonPath for service "seventh_chapter": "/usr/bin/python"
+2026-09-05 14:25:40.286 [info] (23243): FG(seventh_chapter): No include entries specified; assuming /home/abhiyan/machine_learning/python_code/seventh_chapter
+2026-09-05 14:25:40.286 [info] (23243): FG(seventh_chapter): Auto-excluding **/node_modules
+2026-09-05 14:25:40.286 [info] (23243): FG(seventh_chapter): Auto-excluding **/__pycache__
+2026-09-05 14:25:40.286 [info] (23243): FG(seventh_chapter): Auto-excluding **/.*
+2026-09-05 14:25:40.315 [info] (23243): FG(seventh_chapter): Assuming Python version 3.14.6.final.0
+2026-09-05 14:25:40.410 [info] (23243): FG(seventh_chapter): Found 9 source files
+2026-09-05 14:25:40.425 [info] (23243): Settings have not changed. Skipping update.
+2026-09-05 14:25:40.428 [info] (23243): Settings have not changed. Skipping update.
+2026-09-05 14:25:40.432 [info] (23243): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-09-05 14:25:40.440 [info] (23243): [Editable Installs] No sandbox available for Python /usr/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-09-05 14:25:40.635 [info] (23243): PQ(seventh_chapter): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-05 14:25:40.710 [info] (23243): PQ(seventh_chapter): Priority queue background worker(2) started

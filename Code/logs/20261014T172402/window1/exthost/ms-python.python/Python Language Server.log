@@ -1,0 +1,45 @@
+2026-10-14 17:24:08.116 [info] Client: Pylance client (2026.4.1) started with python extension (2026.8.0)
+2026-10-14 17:24:08.205 [info] (31790): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 17:24:08.206 [info] (31790): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-10-14 17:24:08.224 [info] (31790): Starting service instance "sarthak_learn" for workspace "/home/abhiyan/sarthak_learn"
+2026-10-14 17:24:09.790 [info] (31790): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/abhiyan/sarthak_learn...
+2026-10-14 17:24:09.949 [info] (31790): Starting Mcp server id:36875 ...
+2026-10-14 17:24:09.973 [info] (31790): FG(sarthak_learn): Setting environmentName for service "sarthak_learn": "Python 3.14.7"
+2026-10-14 17:24:09.973 [info] (31790): FG(sarthak_learn): Setting pythonPath for service "sarthak_learn": "/usr/bin/python"
+2026-10-14 17:24:09.973 [info] (31790): FG(sarthak_learn): No include entries specified; assuming /home/abhiyan/sarthak_learn
+2026-10-14 17:24:09.974 [info] (31790): FG(sarthak_learn): Auto-excluding **/node_modules
+2026-10-14 17:24:09.975 [info] (31790): FG(sarthak_learn): Auto-excluding **/__pycache__
+2026-10-14 17:24:09.975 [info] (31790): FG(sarthak_learn): Auto-excluding **/.*
+2026-10-14 17:24:09.975 [info] (31790): FG(sarthak_learn): Auto-excluding **/__editable__.*
+2026-10-14 17:24:10.008 [info] (31790): FG(sarthak_learn): Assuming Python version 3.14.7.final.0
+2026-10-14 17:24:10.087 [info] (31790): FG(sarthak_learn): Found 1 source file
+2026-10-14 17:24:10.099 [info] (31790): Settings have not changed. Skipping update.
+2026-10-14 17:24:10.104 [info] (31790): Settings have not changed. Skipping update.
+2026-10-14 17:24:10.294 [info] (31790): PQ(sarthak_learn): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-14 17:24:10.294 [info] (31790): PQ(sarthak_learn): Priority queue background worker(2) started
+2026-10-14 17:24:10.294 [info] (31790): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-10-14 17:24:10.401 [info] (31790): [Editable Installs] Sandbox created successfully for Python /usr/bin/python
+2026-10-14 17:24:10.435 [info] (31790): [Editable Installs] Searching for pth files in site-packages directories: /usr/lib/python3.14/site-packages
+2026-10-14 17:24:10.436 [info] (31790): [Editable Installs] No .pth files found
+2026-10-14 17:24:10.436 [info] (31790): [Editable Installs] Completed pth file resolution. Successfully resolved 0 editable package(s).
+2026-10-14 17:24:11.043 [info] (31790): FG(sarthak_learn): IDX(sarthak_learn): Indexer background runner(3) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist (index)
+2026-10-14 17:24:11.044 [info] (31790): FG(sarthak_learn): IDX(sarthak_learn): Indexing(3) started
+2026-10-14 17:24:11.505 [info] (31790): FG(sarthak_learn): IDX(sarthak_learn): scanned(3) 306 files over 1 exec env
+2026-10-14 17:24:11.728 [info] (31790): FG(sarthak_learn): IDX(sarthak_learn): indexed(3) 306 files over 1 exec env
+2026-10-14 17:24:11.779 [info] (31790): FG(sarthak_learn): IDX(sarthak_learn): Indexing finished(3).
+2026-10-14 17:25:27.793 [info] (31790): virtual workspace: vscode-terminal:/
+2026-10-14 17:25:27.795 [info] (31790): Starting service instance "<default>" for workspace "vscode-terminal:/"
+2026-10-14 17:25:27.839 [info] (31790): FG(<default>): Setting environmentName for service "<default>": "Python 3.14.7"
+2026-10-14 17:25:27.840 [info] (31790): FG(<default>): No include entries specified; assuming vscode-terminal:/
+2026-10-14 17:25:27.840 [info] (31790): FG(<default>): Auto-excluding **/node_modules
+2026-10-14 17:25:27.840 [info] (31790): FG(<default>): Auto-excluding **/__pycache__
+2026-10-14 17:25:27.841 [info] (31790): FG(<default>): Auto-excluding **/.*
+2026-10-14 17:25:27.841 [info] (31790): FG(<default>): Auto-excluding **/__editable__.*
+2026-10-14 17:25:27.889 [info] (31790): FG(<default>): Assuming Python version 3.14.7.final.0
+2026-10-14 17:25:27.947 [info] (31790): [Editable Installs] Starting dynamic pth file resolution for Python: 
+2026-10-14 17:25:28.063 [info] (31790): [Editable Installs] Sandbox created successfully for Python 
+2026-10-14 17:25:28.102 [info] (31790): [Editable Installs] Searching for pth files in site-packages directories: /usr/lib/python3.14/site-packages
+2026-10-14 17:25:28.102 [info] (31790): [Editable Installs] No .pth files found
+2026-10-14 17:25:28.103 [info] (31790): [Editable Installs] Completed pth file resolution. Successfully resolved 0 editable package(s).
+2026-10-14 17:25:28.109 [info] (31790): FG(<default>): Skipping file enumeration for non-file URI scheme "vscode-terminal".
+2026-10-14 17:25:28.109 [info] (31790): FG(<default>): No source files found.

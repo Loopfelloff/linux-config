@@ -1,0 +1,39 @@
+2026-08-10 00:03:24.150 [info] Getting Manifest... gelio.temporary-vim-motions
+2026-08-10 00:03:24.497 [info] Installing extension: gelio.temporary-vim-motions {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"}}
+2026-08-10 00:03:30.666 [info] Extension signature verification result for gelio.temporary-vim-motions: Success. Internal Code: 0. Executed: true. Duration: 473ms.
+2026-08-10 00:03:30.716 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/gelio.temporary-vim-motions-0.0.3: gelio.temporary-vim-motions
+2026-08-10 00:03:30.719 [info] Renamed to /home/abhiyan/.vscode/extensions/gelio.temporary-vim-motions-0.0.3
+2026-08-10 00:03:30.731 [info] Extension installed successfully: gelio.temporary-vim-motions vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-08-10 00:06:03.687 [info] Uninstalling extension from the profile: gelio.temporary-vim-motions@0.0.3 vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-08-10 00:06:03.721 [info] Marked extension as removed gelio.temporary-vim-motions-0.0.3
+2026-08-10 00:06:04.381 [info] Successfully uninstalled extension from the profile gelio.temporary-vim-motions@0.0.3 vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-08-10 00:06:31.703 [info] Getting Manifest... vscodevim.vim
+2026-08-10 00:06:31.864 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"}}
+2026-08-10 00:06:32.933 [info] Extension signature verification result for vscodevim.vim: Success. Internal Code: 0. Executed: true. Duration: 406ms.
+2026-08-10 00:06:32.963 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/vscodevim.vim-1.32.4: vscodevim.vim
+2026-08-10 00:06:32.977 [info] Renamed to /home/abhiyan/.vscode/extensions/vscodevim.vim-1.32.4
+2026-08-10 00:06:32.988 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-08-10 00:44:20.680 [info] Getting Manifest... ms-python.python
+2026-08-10 00:44:20.896 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"}}
+2026-08-10 00:44:21.147 [info] Getting Manifest... ms-python.vscode-pylance
+2026-08-10 00:44:21.181 [info] Getting Manifest... ms-python.debugpy
+2026-08-10 00:44:21.216 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-08-10 00:44:21.255 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-08-10 00:44:21.255 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-08-10 00:44:21.255 [info] Installing extension: ms-python.vscode-python-envs {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-08-10 00:44:23.725 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 720ms.
+2026-08-10 00:44:23.960 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64: ms-python.vscode-python-envs
+2026-08-10 00:44:23.979 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64
+2026-08-10 00:44:24.939 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 543ms.
+2026-08-10 00:44:25.152 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 613ms.
+2026-08-10 00:44:25.266 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64: ms-python.debugpy
+2026-08-10 00:44:25.276 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64
+2026-08-10 00:44:25.932 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.python-2026.4.0-linux-x64: ms-python.python
+2026-08-10 00:44:25.991 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.python-2026.4.0-linux-x64
+2026-08-10 00:44:26.375 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 571ms.
+2026-08-10 00:44:27.971 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1: ms-python.vscode-pylance
+2026-08-10 00:44:28.112 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1
+2026-08-10 00:44:28.138 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-08-10 00:44:28.139 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-08-10 00:44:28.139 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-08-10 00:44:28.139 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json

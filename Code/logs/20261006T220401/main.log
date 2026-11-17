@@ -1,0 +1,13 @@
+2026-10-06 22:04:01.736 [info] StorageMainService: creating application shared storage
+2026-10-06 22:04:01.856 [info] [shared storage] Creating shared storage database at '/home/abhiyan/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-10-06 22:04:01.857 [info] [shared storage] Initializing fallback application storage (path: /home/abhiyan/.config/Code/User/globalStorage/state.vscdb)
+2026-10-06 22:04:01.866 [info] [shared storage] Fallback application storage initialized with 99 items
+2026-10-06 22:04:01.884 [info] update#setState idle
+2026-10-06 22:04:03.735 [info] AgentHostProcessManager: agent host started
+2026-10-06 22:04:08.013 [error] [AgentHost:stderr] (node:187759) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-10-06 22:04:31.885 [info] update#setState checking for updates
+2026-10-06 22:04:32.001 [info] update#setState available for download
+2026-10-06 22:04:40.877 [info] Extension host with pid 187733 exited with code: 0, signal: unknown.
+2026-10-06 22:06:06.565 [info] Extension host with pid 191378 exited with code: 0, signal: unknown.

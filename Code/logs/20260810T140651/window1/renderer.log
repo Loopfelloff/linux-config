@@ -1,0 +1,15 @@
+2026-08-10 14:06:52.472 [info] Started local extension host with pid 9092.
+2026-08-10 14:06:52.581 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-10 14:06:52.773 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-08-10 14:06:52.780 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-08-10 14:06:52.967 [warning] NotebookEditorWidget#setInput failed Canceled
+2026-08-10 14:06:52.968 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-08-10 14:06:52.968 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5411:22956)

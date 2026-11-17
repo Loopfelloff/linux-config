@@ -1,0 +1,30 @@
+2026-11-06 10:15:31.970 [info] Agent Host process started successfully
+2026-11-06 10:15:31.970 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/abhiyan/.config/Code/User'
+    at rs.withProvider (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:36782)
+    at async rs.doWatch (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:49601)
+    at async file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:49291
+2026-11-06 10:15:31.970 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/abhiyan/.config/Code/User/settings.json'
+    at rs.withProvider (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:36782)
+    at async rs.doWatch (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:49601)
+    at async file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:49291
+2026-11-06 10:15:31.978 [info] AgentService initialized
+2026-11-06 10:15:31.997 [info] Registering agent provider: copilotcli
+2026-11-06 10:15:32.000 [info] Registering agent provider: claude
+2026-11-06 10:15:32.052 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-03b8469e7cf4/AWxwx1OcGz2ohPqVwTbixg.sock
+2026-11-06 10:15:32.066 [info] [ProtocolServer] Initialize: clientId=4e8d74f5-d8cd-494c-b6cb-48df945b8942, protocolVersions=[0.7.0]
+2026-11-06 10:15:32.075 [info] [CommandAutoApprover] Tree-sitter initialized successfully
+2026-11-06 10:15:32.086 [info] [Copilot] Listing sessions...
+2026-11-06 10:15:32.087 [info] [Copilot] Starting CopilotClient...
+2026-11-06 10:15:32.092 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-11-06 10:15:33.097 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-11-06 10:15:33.107 [info] [Copilot] Resolved CLI path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-11-06 10:15:34.187 [info] [Copilot] CopilotClient started successfully
+2026-11-06 10:15:34.191 [info] [Copilot] Found 0 sessions
+2026-11-06 10:15:34.193 [info] [Copilot] Listing sessions...
+2026-11-06 10:15:34.193 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-11-06 10:15:34.194 [info] [Copilot] Found 0 sessions
+2026-11-06 10:16:06.190 [info] [ProtocolServer] Client disconnected: 4e8d74f5-d8cd-494c-b6cb-48df945b8942, subscriptions=1
+2026-11-06 10:16:07.218 [info] [ProtocolServer] Initialize: clientId=e54a3e00-1ab2-4fbc-9d3c-647ef1dc8d4c, protocolVersions=[0.7.0]
+2026-11-06 10:16:07.916 [info] [Copilot] Listing sessions...
+2026-11-06 10:16:07.918 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-11-06 10:16:07.918 [info] [Copilot] Found 0 sessions

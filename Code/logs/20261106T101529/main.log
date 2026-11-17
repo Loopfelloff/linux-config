@@ -1,0 +1,14 @@
+2026-11-06 10:15:29.371 [info] StorageMainService: creating application shared storage
+2026-11-06 10:15:29.379 [error] Invalid path provided: /home/abhiyan/sarthak_learn, ENOENT: no such file or directory, stat '/home/abhiyan/sarthak_learn'
+2026-11-06 10:15:29.444 [info] [shared storage] Creating shared storage database at '/home/abhiyan/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-11-06 10:15:29.445 [info] [shared storage] Initializing fallback application storage (path: /home/abhiyan/.config/Code/User/globalStorage/state.vscdb)
+2026-11-06 10:15:29.457 [info] [shared storage] Fallback application storage initialized with 103 items
+2026-11-06 10:15:29.460 [info] update#setState idle
+2026-11-06 10:15:31.217 [info] AgentHostProcessManager: agent host started
+2026-11-06 10:15:32.091 [error] [AgentHost:stderr] (node:9190) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-11-06 10:15:59.462 [info] update#setState checking for updates
+2026-11-06 10:15:59.779 [info] update#setState available for download
+2026-11-06 10:16:06.088 [info] Extension host with pid 9149 exited with code: 0, signal: unknown.
+2026-11-06 10:55:59.395 [info] Extension host with pid 12285 exited with code: 0, signal: unknown.

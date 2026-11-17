@@ -1,0 +1,14 @@
+2026-11-06 10:15:35.261 [info] Getting Manifest... ms-python.python
+2026-11-06 10:15:35.261 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-11-06 10:15:36.067 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-11-06 10:15:36.102 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-11-06 10:15:56.368 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 1596ms.
+2026-11-06 10:15:57.132 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.python-2026.10.0-linux-x64: ms-python.python
+2026-11-06 10:15:57.200 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.python-2026.10.0-linux-x64
+2026-11-06 10:15:57.214 [info] Marked extension as removed ms-python.python-2026.8.0-linux-x64
+2026-11-06 10:15:57.218 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json
+2026-11-06 10:16:01.505 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 395ms.
+2026-11-06 10:16:01.713 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.42.0-linux-x64: ms-python.vscode-python-envs
+2026-11-06 10:16:01.747 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.42.0-linux-x64
+2026-11-06 10:16:01.759 [info] Marked extension as removed ms-python.vscode-python-envs-1.38.0-linux-x64
+2026-11-06 10:16:01.764 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json

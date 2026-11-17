@@ -1,0 +1,103 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "fcd1fed153d342938b0e5387ffb049d1152654ec14944613e2b1698e79390581",
+    "telemetry.devDeviceId": "3b65b132-51a2-422e-a26a-37f8dfd43563",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/abhiyan/SpotMe"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/abhiyan/machine_learning/python_code/seventh_chapter": "__default__profile__",
+            "file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV": "__default__profile__",
+            "file:///home/abhiyan/sarthak_learn": "__default__profile__",
+            "file:///home/abhiyan/SpotMe": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1793939429715": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 237,
+            "auxiliaryBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/abhiyan/SpotMe",
+            "backupPath": "/home/abhiyan/.config/Code/Backups/c3faec617bf762d00de004c332c2f561",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 1920,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 237,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "12cc56857c62983e4d2da72887e9cebe": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "f00d6574970d964699743cbfe477dd53": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "25557773c8add79a3a0459fbebdd9f0a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "5e306aa5b7a417d84e112c535da10e5a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c358dcfb8ee8b53451a99ed490f44b70": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

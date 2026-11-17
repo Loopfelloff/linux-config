@@ -1,0 +1,39 @@
+{
+  "environment": {
+    "executable": "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python",
+    "prefix": "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv",
+    "version": "3.12.12.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python",
+      "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python3",
+      "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python3.12"
+    ]
+  },
+  "symlinks": [
+    [
+      "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python",
+      {
+        "secs_since_epoch": 1771260669,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python3",
+      {
+        "secs_since_epoch": 1771260669,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python3.12",
+      {
+        "secs_since_epoch": 1771260669,
+        "nanos_since_epoch": 0
+      },
+      null
+    ]
+  ]
+}

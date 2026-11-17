@@ -37,7 +37,7 @@ horibox {
 
 /* Left side - Image container */
 image-container {
-    background-image: url("~/Downloads/dark_wallpaper.jpg",height);  
+    background-image: url("~/non_programming/images/wall.jpg" , width);  
     border-radius: 10px 0px 0px 10px;
     padding: 0px;
 }

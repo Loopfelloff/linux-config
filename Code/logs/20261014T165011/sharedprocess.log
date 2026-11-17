@@ -1,0 +1,7 @@
+2026-10-14 16:50:19.354 [info] Getting Manifest... ms-python.python
+2026-10-14 16:50:20.004 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.131.0","date":"2026-07-28T10:51:25Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json","path":"/home/abhiyan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-10-14 16:50:24.794 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 905ms.
+2026-10-14 16:50:25.843 [info] Extracted extension to file:///home/abhiyan/.vscode/extensions/ms-python.python-2026.8.0-linux-x64: ms-python.python
+2026-10-14 16:50:25.905 [info] Renamed to /home/abhiyan/.vscode/extensions/ms-python.python-2026.8.0-linux-x64
+2026-10-14 16:50:25.939 [info] Marked extension as removed ms-python.python-2026.6.0-linux-x64
+2026-10-14 16:50:25.948 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/abhiyan/.vscode/extensions/extensions.json

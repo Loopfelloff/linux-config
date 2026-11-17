@@ -1,0 +1,123 @@
+2026-10-14 17:24:06.760 [info] Python-envs extension version: 1.38.0
+2026-10-14 17:24:06.761 [info] 
+=== Python Envs Configuration Levels ===
+2026-10-14 17:24:06.761 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-10-14 17:24:06.761 [info] Python API: Projects changed. Added: 1, Removed: 0
+2026-10-14 17:24:06.761 [info] [pet] Starting Python Locator /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64/python-env-tools/bin/pet server
+2026-10-14 17:24:06.761 [info] Registering conda manager (environments will be discovered lazily)
+2026-10-14 17:24:06.761 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-10-14 17:24:06.761 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-10-14 17:24:06.761 [info] Registering poetry manager (environments will be discovered lazily)
+2026-10-14 17:24:06.761 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-10-14 17:24:06.761 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/abhiyan/sarthak_learn"],"environmentDirectories":["/home/abhiyan/sarthak_learn/.venv","/home/abhiyan/sarthak_learn/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-14 17:24:06.767 [info] Discovered env: /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+2026-10-14 17:24:06.771 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-10-14 17:24:06.930 [info] Discovered env: /usr/bin/python
+2026-10-14 17:24:06.944 [info] Discovered env: /usr/bin/python3.12
+2026-10-14 17:24:07.035 [info] Refreshing Conda Environments
+2026-10-14 17:24:07.035 [info] Refreshing conda environments (hardRefresh=true)
+2026-10-14 17:24:07.035 [info] Refreshing Pyenv Environments
+2026-10-14 17:24:07.035 [info] Refreshing pyenv environments
+2026-10-14 17:24:07.035 [info] Refreshing Pipenv Environments
+2026-10-14 17:24:07.035 [info] Refreshing pipenv environments
+2026-10-14 17:24:07.035 [info] Refreshing Poetry Environments
+2026-10-14 17:24:07.035 [info] Refreshing poetry environments
+2026-10-14 17:24:07.220 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-10-14 17:24:07.252 [info] Discovered env: /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+2026-10-14 17:24:07.259 [info] Discovered env: /usr/bin/python
+2026-10-14 17:24:07.264 [info] Discovered env: /usr/bin/python3.12
+2026-10-14 17:24:07.286 [info] Found venv environment: cpython-3.11.16-linux-x86_64-gnu (3.11.16)
+2026-10-14 17:24:07.289 [info] [SYS_SET] scope=/home/abhiyan/sarthak_learn, project=/home/abhiyan/sarthak_learn, normalizedKey=/home/abhiyan/sarthak_learn, env=Python 3.14.7-rp5l4h6u5z
+2026-10-14 17:24:07.307 [info] Using poetry from persistent state: /usr/bin/poetry
+2026-10-14 17:24:07.316 [info] Refreshing poetry environments
+2026-10-14 17:24:07.360 [info] Python API: Changed environment from undefined to Python 3.14.7 for: /home/abhiyan/sarthak_learn
+2026-10-14 17:24:07.360 [info] Internal: Changed environment from undefined to Python 3.14.7 for: /home/abhiyan/sarthak_learn
+2026-10-14 17:24:07.360 [info] [interpreterSelection] sarthak_learn: Python 3.14.7 (source: autoDiscovery)
+2026-10-14 17:24:07.360 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-10-14 17:24:07.377 [warning] No conda manager found in native finder data
+2026-10-14 17:24:07.377 [warning] No conda manager found in native finder data
+2026-10-14 17:24:07.377 [info] Pipenv not found via settings, cache, or PATH
+2026-10-14 17:24:07.377 [info] Found 0 pipenv environments
+2026-10-14 17:24:07.378 [info] Found venv environment: cpython-3.11.16-linux-x86_64-gnu (3.11.16)
+2026-10-14 17:24:07.383 [info] Refreshing conda environments (hardRefresh=false)
+2026-10-14 17:24:07.384 [info] Pipenv not found via settings, cache, or PATH
+2026-10-14 17:24:07.384 [info] Refreshing pipenv environments
+2026-10-14 17:24:07.385 [info] Refreshing pyenv environments
+2026-10-14 17:24:07.385 [warning] No conda manager found in native finder data
+2026-10-14 17:24:07.385 [warning] No conda manager found in native finder data
+2026-10-14 17:24:07.386 [info] Pipenv not found via settings, cache, or PATH
+2026-10-14 17:24:07.386 [info] Found 0 pipenv environments
+2026-10-14 17:24:07.390 [info] Conda not found, conda features will be inactive.
+2026-10-14 17:24:07.395 [info] Pipenv not found via settings, cache, or PATH
+2026-10-14 17:24:07.404 [info] Environment discovery complete: 3 environments found (Global: 2, venv: 1)
+2026-10-14 17:24:07.487 [info] Python API: Changed environment from undefined to Python 3.14.7 for: global
+2026-10-14 17:24:07.487 [info] Internal: Changed environment from undefined to Python 3.14.7 for: global
+2026-10-14 17:24:07.487 [info] [interpreterSelection] global: Python 3.14.7 (source: autoDiscovery)
+2026-10-14 17:24:09.788 [error] [pet] [2m   2.992503214s[0m [33m WARN[0m [2mpet_poetry::telemetry[0m[2m:[0m Poetry virtualenvs.in-project is different from the one we found: None != Some(true)
+
+2026-10-14 17:24:10.136 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.148 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.162 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.177 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.191 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.204 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.596 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.613 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.626 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.639 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.652 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:10.670 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:48.682 [info] runInTerminal: executeCommand /usr/bin/python /home/abhiyan/sarthak_learn/index.py
+2026-10-14 17:24:52.600 [info] runInTerminal: executeCommand /usr/bin/python /home/abhiyan/sarthak_learn/index.py
+2026-10-14 17:24:52.638 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:52.651 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:52.665 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:52.678 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:52.690 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:52.702 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:53.707 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:53.720 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:53.733 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:53.745 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:53.757 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:53.769 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:59.517 [info] runInTerminal: executeCommand /usr/bin/python /home/abhiyan/sarthak_learn/index.py
+2026-10-14 17:24:59.543 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:59.559 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:59.579 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:59.601 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:59.615 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:24:59.630 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:27.755 [info] runInTerminal: executeCommand /usr/bin/python /home/abhiyan/sarthak_learn/index.py
+2026-10-14 17:25:27.841 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:27.856 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:27.875 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:27.892 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:27.907 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:27.930 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:28.462 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:28.475 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:28.487 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:28.499 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:28.514 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:28.525 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:42.017 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:42.029 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:42.042 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:42.058 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:42.073 [info] Resolved Python Environment /usr/bin/python
+2026-10-14 17:25:42.086 [info] Resolved Python Environment /usr/bin/python

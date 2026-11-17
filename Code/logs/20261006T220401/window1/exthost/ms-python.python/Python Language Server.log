@@ -1,0 +1,39 @@
+2026-10-06 22:04:08.376 [info] Client: Updating workspace folders: added=[file:///home/abhiyan/machine_learning/python_code/seventh_chapter], removed=[]
+2026-10-06 22:04:08.470 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-10-06 22:04:09.356 [info] (188314): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-10-06 22:04:09.357 [info] (188314): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-10-06 22:04:09.364 [info] (188314): Starting service instance "seventh_chapter" for workspace "/home/abhiyan/machine_learning/python_code/seventh_chapter"
+2026-10-06 22:04:12.670 [info] (188314): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/abhiyan/machine_learning/python_code/seventh_chapter...
+2026-10-06 22:04:12.682 [info] (188314): PQ(seventh_chapter): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-10-06 22:04:12.683 [info] (188314): PQ(seventh_chapter): Priority queue background worker(2) started
+2026-10-06 22:04:12.692 [info] (188314): Starting service instance "seventh_chapter" for workspace "/home/abhiyan/machine_learning/python_code/seventh_chapter"
+2026-10-06 22:04:12.693 [info] (188314): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/abhiyan/machine_learning/python_code/seventh_chapter...
+2026-10-06 22:04:12.697 [info] (188314): Starting Mcp server id:42287 ...
+2026-10-06 22:04:12.748 [info] (188314): FG(seventh_chapter): Setting environmentName for service "seventh_chapter": "Python 3.14.7.final.0"
+2026-10-06 22:04:12.748 [info] (188314): FG(seventh_chapter): Setting pythonPath for service "seventh_chapter": "/usr/bin/python"
+2026-10-06 22:04:12.748 [info] (188314): FG(seventh_chapter): No include entries specified; assuming /home/abhiyan/machine_learning/python_code/seventh_chapter
+2026-10-06 22:04:12.749 [info] (188314): FG(seventh_chapter): Auto-excluding **/node_modules
+2026-10-06 22:04:12.749 [info] (188314): FG(seventh_chapter): Auto-excluding **/__pycache__
+2026-10-06 22:04:12.749 [info] (188314): FG(seventh_chapter): Auto-excluding **/.*
+2026-10-06 22:04:12.791 [info] (188314): FG(seventh_chapter): Assuming Python version 3.14.7.final.0
+2026-10-06 22:04:12.921 [info] (188314): Settings have not changed. Skipping update.
+2026-10-06 22:04:12.934 [info] (188314): FG(seventh_chapter): Setting environmentName for service "seventh_chapter": "Python 3.14.7.final.0"
+2026-10-06 22:04:12.934 [info] (188314): FG(seventh_chapter): Setting pythonPath for service "seventh_chapter": "/usr/bin/python"
+2026-10-06 22:04:12.934 [info] (188314): FG(seventh_chapter): No include entries specified; assuming /home/abhiyan/machine_learning/python_code/seventh_chapter
+2026-10-06 22:04:12.934 [info] (188314): FG(seventh_chapter): Auto-excluding **/node_modules
+2026-10-06 22:04:12.934 [info] (188314): FG(seventh_chapter): Auto-excluding **/__pycache__
+2026-10-06 22:04:12.934 [info] (188314): FG(seventh_chapter): Auto-excluding **/.*
+2026-10-06 22:04:12.968 [info] (188314): FG(seventh_chapter): Assuming Python version 3.14.7.final.0
+2026-10-06 22:04:13.026 [info] (188314): Settings have not changed. Skipping update.
+2026-10-06 22:04:13.159 [info] (188314): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-10-06 22:04:13.161 [info] (188314): [Editable Installs] No sandbox available for Python /usr/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-10-06 22:04:13.346 [info] (188314): PQ(seventh_chapter): Priority queue background worker(4) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-10-06 22:04:13.347 [info] (188314): PQ(seventh_chapter): Priority queue background worker(4) started
+2026-10-06 22:04:13.381 [info] (188314): FG(seventh_chapter): Found 9 source files
+2026-10-06 22:04:13.869 [info] (188314): FG(seventh_chapter): IDX(seventh_chapter): Indexer background runner(5) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist (index)
+2026-10-06 22:04:13.869 [info] (188314): FG(seventh_chapter): IDX(seventh_chapter): Indexing(5) started
+2026-10-06 22:04:14.600 [info] (188314): FG(seventh_chapter): IDX(seventh_chapter): scanned(5) 286 files over 1 exec env
+2026-10-06 22:04:17.952 [info] (188314): FG(seventh_chapter): IDX(seventh_chapter): Long operation: index execution environment file:///home/abhiyan/machine_learning/python_code/seventh_chapter (3077ms)
+2026-10-06 22:04:17.963 [info] (188314): FG(seventh_chapter): IDX(seventh_chapter): Long operation: index packages file:///home/abhiyan/machine_learning/python_code/seventh_chapter (3124ms)
+2026-10-06 22:04:17.964 [info] (188314): FG(seventh_chapter): IDX(seventh_chapter): indexed(5) 286 files over 1 exec env
+2026-10-06 22:04:18.038 [info] (188314): FG(seventh_chapter): IDX(seventh_chapter): Indexing finished(5).

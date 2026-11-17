@@ -1,0 +1,25 @@
+2026-08-10 00:44:31.102 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-08-10 00:44:31.509 [info] (15046): Server root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-08-10 00:44:31.651 [info] (15046): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-08-10 00:44:31.700 [info] (15046): Starting service instance "seventh_chapter" for workspace "/home/abhiyan/machine_learning/python_code/seventh_chapter"
+2026-08-10 00:44:32.347 [info] (15046): Loading background bundle file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/abhiyan/machine_learning/python_code/seventh_chapter...
+2026-08-10 00:44:32.391 [info] (15046): Starting Mcp server id:59907 ...
+2026-08-10 00:44:32.414 [info] (15046): FG(seventh_chapter): Setting environmentName for service "seventh_chapter": "Python 3.14.6.final.0"
+2026-08-10 00:44:32.414 [info] (15046): FG(seventh_chapter): Setting pythonPath for service "seventh_chapter": "/usr/bin/python"
+2026-08-10 00:44:32.414 [info] (15046): FG(seventh_chapter): No include entries specified; assuming /home/abhiyan/machine_learning/python_code/seventh_chapter
+2026-08-10 00:44:32.415 [info] (15046): FG(seventh_chapter): Auto-excluding **/node_modules
+2026-08-10 00:44:32.415 [info] (15046): FG(seventh_chapter): Auto-excluding **/__pycache__
+2026-08-10 00:44:32.415 [info] (15046): FG(seventh_chapter): Auto-excluding **/.*
+2026-08-10 00:44:32.444 [info] (15046): FG(seventh_chapter): Assuming Python version 3.14.6.final.0
+2026-08-10 00:44:32.490 [info] (15046): FG(seventh_chapter): No source files found.
+2026-08-10 00:44:32.497 [info] (15046): Settings have not changed. Skipping update.
+2026-08-10 00:44:32.500 [info] (15046): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-08-10 00:44:32.507 [info] (15046): [Editable Installs] No sandbox available for Python /usr/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-08-10 00:44:32.702 [info] (15046): PQ(seventh_chapter): Priority queue background worker(2) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-08-10 00:44:32.703 [info] (15046): PQ(seventh_chapter): Priority queue background worker(2) started
+2026-08-10 00:45:03.762 [info] (15046): Settings have not changed. Skipping update.
+2026-08-10 00:45:10.758 [info] (15046): FG(seventh_chapter): IDX(seventh_chapter): Indexer background runner(3) root directory: file:///home/abhiyan/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist (index)
+2026-08-10 00:45:10.758 [info] (15046): FG(seventh_chapter): IDX(seventh_chapter): Indexing(3) started
+2026-08-10 00:45:11.058 [info] (15046): FG(seventh_chapter): IDX(seventh_chapter): scanned(3) 285 files over 1 exec env
+2026-08-10 00:45:13.571 [info] (15046): FG(seventh_chapter): IDX(seventh_chapter): indexed(3) 285 files over 1 exec env
+2026-08-10 00:45:13.571 [info] (15046): FG(seventh_chapter): IDX(seventh_chapter): Indexing finished(3).

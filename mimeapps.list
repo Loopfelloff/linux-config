@@ -2,7 +2,10 @@
 video/webm=vlc.desktop;
 application/epub+zip=firefox.desktop;
 application/msword=firefox.desktop;
-application/x-zerosize=firefox.desktop;
+application/x-zerosize=libreoffice-writer.desktop;firefox.desktop;
+image/png=firefox.desktop;
+application/pdf=firefox.desktop;
+image/jpeg=firefox.desktop;
 
 [Default Applications]
 application/epub+zip=firefox.desktop

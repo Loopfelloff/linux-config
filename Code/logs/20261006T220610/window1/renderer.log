@@ -1,0 +1,36 @@
+2026-10-06 22:06:12.303 [info] Started local extension host with pid 192870.
+2026-10-06 22:06:12.350 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-10-06 22:06:12.715 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-06 22:06:12.726 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-06 22:06:13.650 [info] [AgentHost:renderer] Protocol connection established; clientId=c3891269-cf4d-448e-ad93-aac42c0833b7
+2026-10-06 22:06:13.733 [error] [Extension Host] (node:192870) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-06 22:06:13.737 [error] [Extension Host] (node:192870) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-06 22:06:13.902 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-06 22:06:14.425 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-06 22:06:15.035 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-10-06 22:06:15.385 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-10-06 22:06:15.551 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-10-06 22:06:15.704 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-10-06 22:06:17.301 [info] [perf] Render performance baseline is 27ms
+2026-10-06 22:06:18.266 [error] An unknown error occurred. Please consult the log for more details.
+2026-10-06 22:06:18.902 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-06 22:11:18.226 [error] NO notebook document for 'file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb': Error: NO notebook document for 'file:///home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/test.ipynb'
+	at i.getNotebookDocument (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:673:7845)
+	at yh.$cancelCells (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:673:28880)
+	at i._doInvokeHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158411)
+	at i._invokeHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158159)
+	at i._receiveRequest (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:156941)
+	at i._receiveOneMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:155779)
+	at Pp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:153854)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at fs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8509)
+	at Pp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:10003)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at fs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8509)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:852:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-10-06 22:11:30.760 [error] An unknown error occurred. Please consult the log for more details.

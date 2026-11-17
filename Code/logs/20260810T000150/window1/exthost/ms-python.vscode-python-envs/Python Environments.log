@@ -1,0 +1,341 @@
+2026-08-10 00:44:28.944 [info] Python-envs extension version: 1.36.0
+2026-08-10 00:44:28.944 [info] 
+=== Python Envs Configuration Levels ===
+2026-08-10 00:44:28.944 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-08-10 00:44:28.944 [info] [pet] Starting Python Locator /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/python-env-tools/bin/pet server
+2026-08-10 00:44:28.944 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-08-10 00:44:28.944 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-08-10 00:44:28.944 [info] Registering poetry manager (environments will be discovered lazily)
+2026-08-10 00:44:28.949 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/abhiyan/machine_learning/python_code/seventh_chapter"],"environmentDirectories":["/home/abhiyan/machine_learning/python_code/seventh_chapter/.venv","/home/abhiyan/machine_learning/python_code/seventh_chapter/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-08-10 00:44:28.983 [info] Refreshing Pyenv Environments
+2026-08-10 00:44:28.983 [info] Refreshing pyenv environments
+2026-08-10 00:44:28.983 [info] Refreshing Pipenv Environments
+2026-08-10 00:44:28.983 [info] Refreshing pipenv environments
+2026-08-10 00:44:28.983 [info] Refreshing Poetry Environments
+2026-08-10 00:44:28.983 [info] Refreshing poetry environments
+2026-08-10 00:44:29.006 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:44:29.289 [info] Discovered env: /usr/bin/python
+2026-08-10 00:44:29.289 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:44:29.292 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at L (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:629081)
+	at async V (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:629206)
+	at async t.registerCondaFeatures (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:648591)
+	at async t.safeRegister (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:290365)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:782813)]
+2026-08-10 00:44:29.294 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-08-10 00:44:29.309 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:44:29.419 [info] Discovered env: /usr/bin/python
+2026-08-10 00:44:29.420 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:44:29.449 [info] [SYS_SET] scope=/home/abhiyan/machine_learning/python_code/seventh_chapter, project=/home/abhiyan/machine_learning/python_code/seventh_chapter, normalizedKey=/home/abhiyan/machine_learning/python_code/seventh_chapter, env=Python 3.14.6.final.0-hd4lamv75ow
+2026-08-10 00:44:29.457 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:44:29.470 [info] Python API: Changed environment from undefined to Python 3.14.6.final.0 for: /home/abhiyan/machine_learning/python_code/seventh_chapter
+2026-08-10 00:44:29.470 [info] Internal: Changed environment from undefined to Python 3.14.6.final.0 for: /home/abhiyan/machine_learning/python_code/seventh_chapter
+2026-08-10 00:44:29.471 [info] [interpreterSelection] seventh_chapter: Python 3.14.6.final.0 (source: autoDiscovery)
+2026-08-10 00:44:29.471 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-08-10 00:44:29.484 [info] Refreshing pyenv environments
+2026-08-10 00:44:29.491 [info] Python API: Changed environment from undefined to Python 3.14.6.final.0 for: global
+2026-08-10 00:44:29.491 [info] Internal: Changed environment from undefined to Python 3.14.6.final.0 for: global
+2026-08-10 00:44:29.491 [info] [interpreterSelection] global: Python 3.14.6.final.0 (source: autoDiscovery)
+2026-08-10 00:44:29.492 [info] Pipenv not found via settings, cache, or PATH
+2026-08-10 00:44:29.492 [info] Refreshing pipenv environments
+2026-08-10 00:44:29.493 [info] Pipenv not found via settings, cache, or PATH
+2026-08-10 00:44:29.493 [info] Found 0 pipenv environments
+2026-08-10 00:44:29.495 [info] Pipenv not found via settings, cache, or PATH
+2026-08-10 00:44:29.571 [info] Discovered env: /usr/bin/python
+2026-08-10 00:44:29.580 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:44:29.605 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:44:29.720 [info] Discovered env: /usr/bin/python
+2026-08-10 00:44:29.728 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:44:29.751 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:44:29.860 [info] Discovered env: /usr/bin/python
+2026-08-10 00:44:29.867 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:44:29.892 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:44:30.006 [info] Discovered env: /usr/bin/python
+2026-08-10 00:44:30.018 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:44:30.036 [info] Pipenv not found via settings, cache, or PATH
+2026-08-10 00:44:30.036 [info] Found 0 pipenv environments
+2026-08-10 00:44:30.038 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:44:30.149 [info] Discovered env: /usr/bin/python
+2026-08-10 00:44:30.152 [info] Refreshing poetry environments
+2026-08-10 00:44:30.153 [info] Environment discovery complete: 2 environments found (Global: 2)
+2026-08-10 00:44:30.158 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:44:31.232 [error] [pet] [2m   2.318330016s[0m [33m WARN[0m [2mpet_poetry::telemetry[0m[2m:[0m Poetry virtualenvs.in-project is different from the one we found: None != Some(true)
+
+2026-08-10 00:45:03.506 [info] Refreshing Pyenv Environments
+2026-08-10 00:45:03.506 [info] Refreshing pyenv environments
+2026-08-10 00:45:03.506 [info] Refreshing Pipenv Environments
+2026-08-10 00:45:03.506 [info] Refreshing pipenv environments
+2026-08-10 00:45:03.506 [info] Refreshing Poetry Environments
+2026-08-10 00:45:03.506 [info] Refreshing poetry environments
+2026-08-10 00:45:03.535 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:45:03.647 [info] Discovered env: /usr/bin/python
+2026-08-10 00:45:03.665 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:45:03.676 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.707 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.714 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:45:03.804 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.808 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.813 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.816 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.820 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.824 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.882 [info] Discovered env: /usr/bin/python
+2026-08-10 00:45:03.891 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.894 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.898 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.901 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.904 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.909 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.932 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:45:03.944 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.948 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.950 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.952 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.954 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.955 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.963 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.989 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.992 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.995 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.997 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:03.999 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.001 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.018 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.022 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:45:04.030 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.049 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.081 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.086 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.090 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.123 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.130 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.153 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.181 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.189 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.192 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.207 [info] Discovered env: /usr/bin/python
+2026-08-10 00:45:04.215 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.221 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.237 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.249 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.252 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.255 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.257 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:45:04.266 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.269 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.278 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.289 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.292 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.294 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.302 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.305 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.309 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.323 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.326 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.330 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.332 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.335 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.351 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:04.354 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:45:04.450 [info] Discovered env: /usr/bin/python
+2026-08-10 00:45:04.456 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:45:04.475 [info] Pipenv not found via settings, cache, or PATH
+2026-08-10 00:45:04.475 [info] Found 0 pipenv environments
+2026-08-10 00:45:04.477 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-08-10 00:45:04.573 [info] Discovered env: /usr/bin/python
+2026-08-10 00:45:04.580 [info] Discovered env: /usr/bin/python3.12
+2026-08-10 00:45:09.984 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:09.992 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:09.999 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.006 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.015 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.081 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.098 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.174 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.177 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.180 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.185 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.191 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.195 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.203 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.206 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.209 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.212 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.227 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.231 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.234 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.238 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.240 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.241 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.244 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.246 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.254 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.256 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.258 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.270 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.272 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.274 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.276 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.279 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.286 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.288 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.291 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.294 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.301 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.303 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.307 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.310 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.313 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.319 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.327 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.332 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.348 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.350 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.358 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.393 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:10.411 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.580 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.588 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.590 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.591 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.599 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.601 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.602 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.608 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.611 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.612 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.619 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.622 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.623 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.630 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.636 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.661 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.668 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.674 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.680 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.686 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.726 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.733 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.739 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.745 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.751 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.794 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.801 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.807 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.813 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:13.819 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:18.977 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:18.985 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:18.995 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:19.008 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:19.021 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:19.413 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:19.421 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:19.429 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:19.438 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:19.445 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.426 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.437 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.440 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.443 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.454 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.456 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.458 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.467 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.470 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.472 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.480 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.484 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.487 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.494 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.495 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.526 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.534 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.542 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.550 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.556 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.601 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.610 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.619 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.628 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.636 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.680 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.690 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.697 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.706 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:25.713 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.230 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.241 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.252 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.262 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.273 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.635 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.644 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.653 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.661 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:31.670 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.280 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.293 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.296 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.301 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.308 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.309 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.311 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.322 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.324 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.326 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.335 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.337 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.339 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.346 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.353 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.383 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.391 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.399 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.407 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.415 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.460 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.469 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.477 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.485 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.492 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.538 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.545 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.554 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.561 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:45:41.569 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.396 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.406 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.410 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.413 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.423 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.426 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.428 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.438 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.440 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.442 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.454 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.456 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.457 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.469 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.471 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.473 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.483 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.491 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.499 [info] Resolved Python Environment /usr/bin/python
+2026-08-10 00:46:44.507 [info] Resolved Python Environment /usr/bin/python

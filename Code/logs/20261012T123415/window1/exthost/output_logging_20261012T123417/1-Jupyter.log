@@ -1,0 +1,55 @@
+Visual Studio Code (1.131.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.6.0.
+Python Environment Extension Version: 1.38.0.
+Pylance Extension Version: 2026.4.1.
+Platform: linux (x64).
+Home = /home/abhiyan
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Sepsis-Mortality-Anaylis-Mimic-IV
+12:34:27.557 [info] Starting Kernel (Python Path: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, Venv, 3.11.16) for '~/Sepsis-Mortality-Anaylis-Mimic-IV/script.ipynb' (disableUI=false)
+12:34:27.609 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m pip list
+12:34:27.614 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:34:27.621 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v31cf13a2d8ba9bd67676ca22b8e51f01d67bb7ac0.json
+    > cwd: ~/Sepsis-Mortality-Anaylis-Mimic-IV
+12:34:27.647 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+12:34:27.655 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+12:34:27.657 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+12:34:27.657 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+12:34:27.658 [warn] Failed to shutdown kernel, .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+12:34:27.658 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+12:34:27.659 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+12:34:27.665 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+12:34:27.676 [info] Check & install missing Kernel dependencies for ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python, ui.disabled=false for resource '~/Sepsis-Mortality-Anaylis-Mimic-IV/script.ipynb'
+12:34:27.682 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+12:34:27.699 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+12:34:30.501 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/script.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/script.ipynb'
+12:34:30.504 [error] Error in notebook cell execution Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+12:34:30.505 [error] Error in execution (get message for cell) Error: The kernel died. Error: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0f20518ad9f62d56c60cf53afd76cac2b38611048c490605c10bdc378e016e375.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python: No module named ipykernel_launcher
+12:34:30.512 [info] Process Execution: ~/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+12:34:36.774 [info] Dispose Kernel '~/Sepsis-Mortality-Anaylis-Mimic-IV/script.ipynb' associated with '~/Sepsis-Mortality-Anaylis-Mimic-IV/script.ipynb'

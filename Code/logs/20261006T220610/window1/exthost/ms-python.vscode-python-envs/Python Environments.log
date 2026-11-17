@@ -1,0 +1,209 @@
+2026-10-06 22:06:15.176 [info] Python-envs extension version: 1.38.0
+2026-10-06 22:06:15.176 [info] 
+=== Python Envs Configuration Levels ===
+2026-10-06 22:06:15.176 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-10-06 22:06:15.176 [info] Python API: Projects changed. Added: 1, Removed: 0
+2026-10-06 22:06:15.176 [info] [pet] Starting Python Locator /home/abhiyan/.vscode/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64/python-env-tools/bin/pet server
+2026-10-06 22:06:15.176 [info] Registering conda manager (environments will be discovered lazily)
+2026-10-06 22:06:15.176 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-10-06 22:06:15.176 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-10-06 22:06:15.176 [info] Registering poetry manager (environments will be discovered lazily)
+2026-10-06 22:06:15.176 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-10-06 22:06:15.176 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"],"environmentDirectories":["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv","/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-06 22:06:15.176 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"],"environmentDirectories":["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv","/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-06 22:06:15.176 [error] [pet] [2m   0.172090678s[0m [33m WARN[0m [2mpet_python_utils::cache[0m[2m:[0m Cache directory has already been set to "/home/abhiyan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator". Cannot change it now.
+
+2026-10-06 22:06:15.224 [info] Discovered env: /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+2026-10-06 22:06:15.225 [info] Discovered env: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-06 22:06:15.228 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-10-06 22:06:15.298 [info] Discovered env: /usr/bin/python
+2026-10-06 22:06:15.310 [info] Discovered env: /usr/bin/python3.12
+2026-10-06 22:06:15.345 [info] Resolved Python Environment /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-06 22:06:15.436 [info] Python API: Changed environment from undefined to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.436 [info] Internal: Changed environment from undefined to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.436 [info] [interpreterSelection] Sepsis-Mortality-Anaylis-Mimic-IV: Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) (source: autoDiscovery)
+2026-10-06 22:06:15.436 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-10-06 22:06:15.487 [info] Resolved Python Environment /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-06 22:06:15.501 [info] Resolved Python Environment /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-06 22:06:15.504 [info] Resolved Python Environment /usr/bin/python
+2026-10-06 22:06:15.514 [info] Found venv environment: cpython-3.11.16-linux-x86_64-gnu (3.11.16)
+2026-10-06 22:06:15.583 [info] Python API: Changed environment from undefined to Python 3.14.7 for: global
+2026-10-06 22:06:15.583 [info] Internal: Changed environment from undefined to Python 3.14.7 for: global
+2026-10-06 22:06:15.583 [info] [interpreterSelection] global: Python 3.14.7 (source: autoDiscovery)
+2026-10-06 22:06:15.584 [info] Python API: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.584 [info] Internal: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.611 [info] Found venv environment: Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12)
+2026-10-06 22:06:15.614 [info] Resolved Python Environment /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-06 22:06:15.618 [info] Python API: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.618 [info] Internal: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:15.667 [info] Refreshing conda environments (hardRefresh=false)
+2026-10-06 22:06:15.668 [warning] No conda manager found in native finder data
+2026-10-06 22:06:15.668 [warning] No conda manager found in native finder data
+2026-10-06 22:06:15.719 [info] Conda not found, conda features will be inactive.
+2026-10-06 22:06:15.765 [info] Refreshing pyenv environments
+2026-10-06 22:06:15.772 [info] Pipenv not found via settings, cache, or PATH
+2026-10-06 22:06:15.772 [info] Refreshing pipenv environments
+2026-10-06 22:06:15.773 [info] Pipenv not found via settings, cache, or PATH
+2026-10-06 22:06:15.773 [info] Found 0 pipenv environments
+2026-10-06 22:06:15.842 [info] Refreshing Conda Environments
+2026-10-06 22:06:15.842 [info] Refreshing conda environments (hardRefresh=true)
+2026-10-06 22:06:15.842 [info] Refreshing Pyenv Environments
+2026-10-06 22:06:15.842 [info] Refreshing pyenv environments
+2026-10-06 22:06:15.842 [info] Refreshing Pipenv Environments
+2026-10-06 22:06:15.842 [info] Refreshing pipenv environments
+2026-10-06 22:06:15.842 [info] Refreshing Poetry Environments
+2026-10-06 22:06:15.842 [info] Refreshing poetry environments
+2026-10-06 22:06:15.877 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-10-06 22:06:15.890 [info] Discovered env: /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+2026-10-06 22:06:15.894 [info] Discovered env: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python
+2026-10-06 22:06:15.900 [info] Pipenv not found via settings, cache, or PATH
+2026-10-06 22:06:15.903 [info] Using poetry from persistent state: /usr/bin/poetry
+2026-10-06 22:06:15.904 [info] Refreshing poetry environments
+2026-10-06 22:06:16.372 [info] Discovered env: /usr/bin/python
+2026-10-06 22:06:16.397 [info] Discovered env: /usr/bin/python3.12
+2026-10-06 22:06:16.465 [info] Environment discovery complete: 4 environments found (Global: 2, venv: 2)
+2026-10-06 22:06:16.585 [warning] No conda manager found in native finder data
+2026-10-06 22:06:16.585 [warning] No conda manager found in native finder data
+2026-10-06 22:06:16.588 [info] Pipenv not found via settings, cache, or PATH
+2026-10-06 22:06:16.588 [info] Found 0 pipenv environments
+2026-10-06 22:06:16.608 [info] Found venv environment: cpython-3.11.16-linux-x86_64-gnu (3.11.16)
+2026-10-06 22:06:16.619 [info] Found venv environment: Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12)
+2026-10-06 22:06:16.628 [info] Python API: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:16.628 [info] Internal: Changed environment from Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) to Sepsis-Mortality-Anaylis-Mimic-IV (3.12.12) for: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV
+2026-10-06 22:06:19.241 [error] [pet] [2m   4.325295102s[0m [33m WARN[0m [2mpet_poetry::telemetry[0m[2m:[0m Poetry virtualenvs.in-project is different from the one we found: None != Some(true)
+[2m   4.325321813s[0m [33m WARN[0m [2mpet_poetry::telemetry[0m[2m:[0m Missing Poetry envs: ["/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv"] for "/home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV"
+
+2026-10-06 22:09:02.224 [info] Running: uv --version
+2026-10-06 22:09:02.224 [info] Running: uv --version
+2026-10-06 22:09:02.255 [info] uv 0.12.19 (bea138450 2026-09-24 x86_64-unknown-linux-gnu)
+
+2026-10-06 22:09:02.255 [info] uv 0.12.19 (bea138450 2026-09-24 x86_64-unknown-linux-gnu)
+
+2026-10-06 22:09:02.273 [info] Running: uv pip list --format=json --python /usr/bin/python
+2026-10-06 22:09:02.273 [info] Running: uv pip tree --python /usr/bin/python --depth=0
+2026-10-06 22:09:02.299 [info] Using Python 3.14.7 environment at: /usr
+
+2026-10-06 22:09:02.299 [info] Using Python 3.14.7 environment at: /usr
+
+2026-10-06 22:09:02.309 [info] [{"name":"argcomplete","version":"3.7.2"},{"name":"asgiref","version":"3.12.1"},{"name":"asttokens","version":"3.0.2"},{"name":"attrs","version":"26.1.0"},{"name":"build","version":"1.6.0"},{"name":"cachecontrol","version":"0.14.4"},{"name":"cachy","version":"0.3.0"},{"name":"certifi","version":"2026.7.22"},{"name":"cffi","version":"2.1.1"},{"name":"charset-normalizer","version":"3.5.1"},{"name":"cleo","version":"2.1.0"},{"name":"click","version":"8.3.3"},{"name":"cloudpickle","version":"3.1.2"},{"name":"comm","version":"0.2.3"},{"name":"contourpy","version":"1.4.0"},{"name":"crashtest","version":"0.4.1"},{"name":"cryptography","version":"50.0.1"},{"name":"cycler","version":"0.12.1"},{"name":"distlib","version":"0.4.3"},{"name":"dulwich","version":"1.2.14"},{"name":"executing","version":"2.2.1"},{"name":"fastjsonschema","version":"2.21.2"},{"name":"filelock","version":"3.31.2"},{"name":"findpython","version":"0.8.0"},{"name":"fonttools","version":"4.66.0"},{"name":"gpg","version":"2.0.0b25"},{"name":"gps","version":"3.27.5"},{"name":"graphviz","version":"0.21"},{"name":"h11","version":"0.16.0"},{"name":"html5lib","version":"1.1"},{"name":"httptools","version":"0.8.0"},{"name":"idna","version":"3.20"},{"name":"installer","version":"1.0.1"},{"name":"ipykernel","version":"7.3.0"},{"name":"ipython","version":"9.17.1"},{"name":"ipython-pygments-lexers","version":"1.1.1"},{"name":"jaraco-classes","version":"3.4.0"},{"name":"jaraco-context","version":"6.1.3.dev0+g098f39c91.d20260403"},{"name":"jaraco-functools","version":"4.1.0"},{"name":"jedi","version":"0.20.0"},{"name":"jeepney","version":"0.9.0"},{"name":"joblib","version":"1.6.0"},{"name":"jsonschema","version":"4.26.0"},{"name":"jsonschema-specifications","version":"2025.9.1"},{"name":"jupyter-client","version":"8.10.0"},{"name":"jupyter-core","version":"5.9.1"},{"name":"keyring","version":"25.7.0"},{"name":"kiwisolver","version":"1.5.1"},{"name":"lark","version":"1.3.1"},{"name":"matplotlib","version":"3.11.2"},{"name":"matplotlib-inline","version":"0.2.2"},{"name":"more-itertools","version":"11.1.0"},{"name":"msgpack","version":"1.1.2"},{"name":"narwhals","version":"2.26.0"},{"name":"nest-asyncio","version":"1.5.9"},{"name":"nftables","version":"0.1"},{"name":"numpy","version":"2.5.3"},{"name":"packaging","version":"26.3"},{"name":"pandas","version":"2.3.3"},{"name":"parso","version":"0.8.7"},{"name":"pbs-installer","version":"2026.9.1"},{"name":"pexpect","version":"4.9.0"},{"name":"pillow","version":"12.3.0"},{"name":"pip","version":"26.2.1"},{"name":"pkginfo","version":"1.13"},{"name":"platformdirs","version":"4.11.14"},{"name":"poetry","version":"2.5.1"},{"name":"poetry-core","version":"2.5.0"},{"name":"poetry-plugin-export","version":"1.10.1"},{"name":"pooch","version":"1.9.0"},{"name":"prompt-toolkit","version":"3.0.53"},{"name":"psutil","version":"7.2.2"},{"name":"ptyprocess","version":"0.7.0"},{"name":"pure-eval","version":"0.2.3"},{"name":"pycparser","version":"3.0"},{"name":"pygments","version":"2.21.0"},{"name":"pyparsing","version":"3.3.3"},{"name":"pyproject-hooks","version":"1.3.3"},{"name":"pyqt6","version":"6.11.0"},{"name":"pyqt6-sip","version":"13.12.0"},{"name":"pyside6","version":"6.11.2"},{"name":"pysocks","version":"1.7.1"},{"name":"python-dateutil","version":"2.9.0"},{"name":"python-discovery","version":"1.6.1"},{"name":"pytz","version":"2026.1"},{"name":"pyzmq","version":"27.2.0"},{"name":"rapidfuzz","version":"3.14.6"},{"name":"referencing","version":"0.37.0"},{"name":"requests","version":"2.34.2"},{"name":"requests-toolbelt","version":"1.0.0"},{"name":"rpds-py","version":"2026.6.3"},{"name":"scikit-learn","version":"1.9.1"},{"name":"scipy","version":"1.18.1"},{"name":"secretstorage","version":"3.5.0"},{"name":"shellingham","version":"1.5.4"},{"name":"shiboken6","version":"6.11.2"},{"name":"six","version":"1.17.0"},{"name":"stack-data","version":"0.6.4.dev0+g53501eb8b.d20251216"},{"name":"tbb","version":"2023.1.0"},{"name":"threadpoolctl","version":"3.6.0"},{"name":"tomlkit","version":"0.15.1"},{"name":"torbrowser-launcher","version":"0.3.9"},{"name":"tornado","version":"6.5.10"},{"name":"traitlets","version":"5.16.1"},{"name":"trove-classifiers","version":"2026.9.21.13"},{"name":"typing-extensions","version":"4.16.0"},{"name":"urllib3","version":"2.7.0"},{"name":"uvicorn","version":"0.52.4"},{"name":"uvloop","version":"0.22.1"},{"name":"vapoursynth","version":"79"},{"name":"virtualenv","version":"21.12.1"},{"name":"wcwidth","version":"0.9.1"},{"name":"webencodings","version":"0.5.1"},{"name":"websockets","version":"16.1.1"},{"name":"wheel","version":"0.48.0"},{"name":"yt-dlp","version":"2026.8.19"},{"name":"yt-dlp-ejs","version":"0.8.0"}]
+
+2026-10-06 22:09:02.344 [info] argcomplete v3.7.2
+asgiref v3.12.1
+cachy v0.3.0
+gps v3.27.5
+graphviz v0.21
+html5lib v1.1
+httptools v0.8.0
+ipykernel v7.3.0
+jsonschema v4.26.0
+lark v1.3.1
+matplotlib v3.11.2
+nest-asyncio v1.5.9
+nftables v0.1
+pandas v2.3.3
+pip v26.2.1
+poetry-plugin-export v1.10.1
+pooch v1.9.0
+pyqt6 v6.11.0
+scikit-learn v1.9.1
+tbb v2023.1.0
+torbrowser-launcher v0.3.9
+uvicorn v0.52.4
+uvloop v0.22.1
+vapoursynth v79
+websockets v16.1.1
+wheel v0.48.0
+yt-dlp v2026.8.19
+yt-dlp-ejs v0.8.0
+
+2026-10-06 22:09:02.962 [info] Running: uv pip list --format=json --python /usr/bin/python
+2026-10-06 22:09:02.962 [info] Running: uv pip tree --python /usr/bin/python --depth=0
+2026-10-06 22:09:02.977 [info] Using Python 3.14.7 environment at: /usr
+
+2026-10-06 22:09:02.978 [info] Using Python 3.14.7 environment at: /usr
+
+2026-10-06 22:09:02.980 [info] [{"name":"argcomplete","version":"3.7.2"},{"name":"asgiref","version":"3.12.1"},{"name":"asttokens","version":"3.0.2"},{"name":"attrs","version":"26.1.0"},{"name":"build","version":"1.6.0"},{"name":"cachecontrol","version":"0.14.4"},{"name":"cachy","version":"0.3.0"},{"name":"certifi","version":"2026.7.22"},{"name":"cffi","version":"2.1.1"},{"name":"charset-normalizer","version":"3.5.1"},{"name":"cleo","version":"2.1.0"},{"name":"click","version":"8.3.3"},{"name":"cloudpickle","version":"3.1.2"},{"name":"comm","version":"0.2.3"},{"name":"contourpy","version":"1.4.0"},{"name":"crashtest","version":"0.4.1"},{"name":"cryptography","version":"50.0.1"},{"name":"cycler","version":"0.12.1"},{"name":"distlib","version":"0.4.3"},{"name":"dulwich","version":"1.2.14"},{"name":"executing","version":"2.2.1"},{"name":"fastjsonschema","version":"2.21.2"},{"name":"filelock","version":"3.31.2"},{"name":"findpython","version":"0.8.0"},{"name":"fonttools","version":"4.66.0"},{"name":"gpg","version":"2.0.0b25"},{"name":"gps","version":"3.27.5"},{"name":"graphviz","version":"0.21"},{"name":"h11","version":"0.16.0"},{"name":"html5lib","version":"1.1"},{"name":"httptools","version":"0.8.0"},{"name":"idna","version":"3.20"},{"name":"installer","version":"1.0.1"},{"name":"ipykernel","version":"7.3.0"},{"name":"ipython","version":"9.17.1"},{"name":"ipython-pygments-lexers","version":"1.1.1"},{"name":"jaraco-classes","version":"3.4.0"},{"name":"jaraco-context","version":"6.1.3.dev0+g098f39c91.d20260403"},{"name":"jaraco-functools","version":"4.1.0"},{"name":"jedi","version":"0.20.0"},{"name":"jeepney","version":"0.9.0"},{"name":"joblib","version":"1.6.0"},{"name":"jsonschema","version":"4.26.0"},{"name":"jsonschema-specifications","version":"2025.9.1"},{"name":"jupyter-client","version":"8.10.0"},{"name":"jupyter-core","version":"5.9.1"},{"name":"keyring","version":"25.7.0"},{"name":"kiwisolver","version":"1.5.1"},{"name":"lark","version":"1.3.1"},{"name":"matplotlib","version":"3.11.2"},{"name":"matplotlib-inline","version":"0.2.2"},{"name":"more-itertools","version":"11.1.0"},{"name":"msgpack","version":"1.1.2"},{"name":"narwhals","version":"2.26.0"},{"name":"nest-asyncio","version":"1.5.9"},{"name":"nftables","version":"0.1"},{"name":"numpy","version":"2.5.3"},{"name":"packaging","version":"26.3"},{"name":"pandas","version":"2.3.3"},{"name":"parso","version":"0.8.7"},{"name":"pbs-installer","version":"2026.9.1"},{"name":"pexpect","version":"4.9.0"},{"name":"pillow","version":"12.3.0"},{"name":"pip","version":"26.2.1"},{"name":"pkginfo","version":"1.13"},{"name":"platformdirs","version":"4.11.14"},{"name":"poetry","version":"2.5.1"},{"name":"poetry-core","version":"2.5.0"},{"name":"poetry-plugin-export","version":"1.10.1"},{"name":"pooch","version":"1.9.0"},{"name":"prompt-toolkit","version":"3.0.53"},{"name":"psutil","version":"7.2.2"},{"name":"ptyprocess","version":"0.7.0"},{"name":"pure-eval","version":"0.2.3"},{"name":"pycparser","version":"3.0"},{"name":"pygments","version":"2.21.0"},{"name":"pyparsing","version":"3.3.3"},{"name":"pyproject-hooks","version":"1.3.3"},{"name":"pyqt6","version":"6.11.0"},{"name":"pyqt6-sip","version":"13.12.0"},{"name":"pyside6","version":"6.11.2"},{"name":"pysocks","version":"1.7.1"},{"name":"python-dateutil","version":"2.9.0"},{"name":"python-discovery","version":"1.6.1"},{"name":"pytz","version":"2026.1"},{"name":"pyzmq","version":"27.2.0"},{"name":"rapidfuzz","version":"3.14.6"},{"name":"referencing","version":"0.37.0"},{"name":"requests","version":"2.34.2"},{"name":"requests-toolbelt","version":"1.0.0"},{"name":"rpds-py","version":"2026.6.3"},{"name":"scikit-learn","version":"1.9.1"},{"name":"scipy","version":"1.18.1"},{"name":"secretstorage","version":"3.5.0"},{"name":"shellingham","version":"1.5.4"},{"name":"shiboken6","version":"6.11.2"},{"name":"six","version":"1.17.0"},{"name":"stack-data","version":"0.6.4.dev0+g53501eb8b.d20251216"},{"name":"tbb","version":"2023.1.0"},{"name":"threadpoolctl","version":"3.6.0"},{"name":"tomlkit","version":"0.15.1"},{"name":"torbrowser-launcher","version":"0.3.9"},{"name":"tornado","version":"6.5.10"},{"name":"traitlets","version":"5.16.1"},{"name":"trove-classifiers","version":"2026.9.21.13"},{"name":"typing-extensions","version":"4.16.0"},{"name":"urllib3","version":"2.7.0"},{"name":"uvicorn","version":"0.52.4"},{"name":"uvloop","version":"0.22.1"},{"name":"vapoursynth","version":"79"},{"name":"virtualenv","version":"21.12.1"},{"name":"wcwidth","version":"0.9.1"},{"name":"webencodings","version":"0.5.1"},{"name":"websockets","version":"16.1.1"},{"name":"wheel","version":"0.48.0"},{"name":"yt-dlp","version":"2026.8.19"},{"name":"yt-dlp-ejs","version":"0.8.0"}]
+
+2026-10-06 22:09:02.987 [info] argcomplete v3.7.2
+asgiref v3.12.1
+cachy v0.3.0
+gps v3.27.5
+graphviz v0.21
+html5lib v1.1
+httptools v0.8.0
+ipykernel v7.3.0
+jsonschema v4.26.0
+lark v1.3.1
+matplotlib v3.11.2
+nest-asyncio v1.5.9
+nftables v0.1
+pandas v2.3.3
+pip v26.2.1
+poetry-plugin-export v1.10.1
+pooch v1.9.0
+pyqt6 v6.11.0
+scikit-learn v1.9.1
+tbb v2023.1.0
+torbrowser-launcher v0.3.9
+uvicorn v0.52.4
+uvloop v0.22.1
+vapoursynth v79
+websockets v16.1.1
+wheel v0.48.0
+yt-dlp v2026.8.19
+yt-dlp-ejs v0.8.0
+
+2026-10-06 22:09:06.218 [info] Running: uv pip list --format=json --python /usr/bin/python
+2026-10-06 22:09:06.218 [info] Running: uv pip tree --python /usr/bin/python --depth=0
+2026-10-06 22:09:06.222 [info] Using Python 3.14.7 environment at: /usr
+
+2026-10-06 22:09:06.223 [info] [{"name":"argcomplete","version":"3.7.2"},{"name":"asgiref","version":"3.12.1"},{"name":"asttokens","version":"3.0.2"},{"name":"attrs","version":"26.1.0"},{"name":"build","version":"1.6.0"},{"name":"cachecontrol","version":"0.14.4"},{"name":"cachy","version":"0.3.0"},{"name":"certifi","version":"2026.7.22"},{"name":"cffi","version":"2.1.1"},{"name":"charset-normalizer","version":"3.5.1"},{"name":"cleo","version":"2.1.0"},{"name":"click","version":"8.3.3"},{"name":"cloudpickle","version":"3.1.2"},{"name":"comm","version":"0.2.3"},{"name":"contourpy","version":"1.4.0"},{"name":"crashtest","version":"0.4.1"},{"name":"cryptography","version":"50.0.1"},{"name":"cycler","version":"0.12.1"},{"name":"distlib","version":"0.4.3"},{"name":"dulwich","version":"1.2.14"},{"name":"executing","version":"2.2.1"},{"name":"fastjsonschema","version":"2.21.2"},{"name":"filelock","version":"3.31.2"},{"name":"findpython","version":"0.8.0"},{"name":"fonttools","version":"4.66.0"},{"name":"gpg","version":"2.0.0b25"},{"name":"gps","version":"3.27.5"},{"name":"graphviz","version":"0.21"},{"name":"h11","version":"0.16.0"},{"name":"html5lib","version":"1.1"},{"name":"httptools","version":"0.8.0"},{"name":"idna","version":"3.20"},{"name":"installer","version":"1.0.1"},{"name":"ipykernel","version":"7.3.0"},{"name":"ipython","version":"9.17.1"},{"name":"ipython-pygments-lexers","version":"1.1.1"},{"name":"jaraco-classes","version":"3.4.0"},{"name":"jaraco-context","version":"6.1.3.dev0+g098f39c91.d20260403"},{"name":"jaraco-functools","version":"4.1.0"},{"name":"jedi","version":"0.20.0"},{"name":"jeepney","version":"0.9.0"},{"name":"joblib","version":"1.6.0"},{"name":"jsonschema","version":"4.26.0"},{"name":"jsonschema-specifications","version":"2025.9.1"},{"name":"jupyter-client","version":"8.10.0"},{"name":"jupyter-core","version":"5.9.1"},{"name":"keyring","version":"25.7.0"},{"name":"kiwisolver","version":"1.5.1"},{"name":"lark","version":"1.3.1"},{"name":"matplotlib","version":"3.11.2"},{"name":"matplotlib-inline","version":"0.2.2"},{"name":"more-itertools","version":"11.1.0"},{"name":"msgpack","version":"1.1.2"},{"name":"narwhals","version":"2.26.0"},{"name":"nest-asyncio","version":"1.5.9"},{"name":"nftables","version":"0.1"},{"name":"numpy","version":"2.5.3"},{"name":"packaging","version":"26.3"},{"name":"pandas","version":"2.3.3"},{"name":"parso","version":"0.8.7"},{"name":"pbs-installer","version":"2026.9.1"},{"name":"pexpect","version":"4.9.0"},{"name":"pillow","version":"12.3.0"},{"name":"pip","version":"26.2.1"},{"name":"pkginfo","version":"1.13"},{"name":"platformdirs","version":"4.11.14"},{"name":"poetry","version":"2.5.1"},{"name":"poetry-core","version":"2.5.0"},{"name":"poetry-plugin-export","version":"1.10.1"},{"name":"pooch","version":"1.9.0"},{"name":"prompt-toolkit","version":"3.0.53"},{"name":"psutil","version":"7.2.2"},{"name":"ptyprocess","version":"0.7.0"},{"name":"pure-eval","version":"0.2.3"},{"name":"pycparser","version":"3.0"},{"name":"pygments","version":"2.21.0"},{"name":"pyparsing","version":"3.3.3"},{"name":"pyproject-hooks","version":"1.3.3"},{"name":"pyqt6","version":"6.11.0"},{"name":"pyqt6-sip","version":"13.12.0"},{"name":"pyside6","version":"6.11.2"},{"name":"pysocks","version":"1.7.1"},{"name":"python-dateutil","version":"2.9.0"},{"name":"python-discovery","version":"1.6.1"},{"name":"pytz","version":"2026.1"},{"name":"pyzmq","version":"27.2.0"},{"name":"rapidfuzz","version":"3.14.6"},{"name":"referencing","version":"0.37.0"},{"name":"requests","version":"2.34.2"},{"name":"requests-toolbelt","version":"1.0.0"},{"name":"rpds-py","version":"2026.6.3"},{"name":"scikit-learn","version":"1.9.1"},{"name":"scipy","version":"1.18.1"},{"name":"secretstorage","version":"3.5.0"},{"name":"shellingham","version":"1.5.4"},{"name":"shiboken6","version":"6.11.2"},{"name":"six","version":"1.17.0"},{"name":"stack-data","version":"0.6.4.dev0+g53501eb8b.d20251216"},{"name":"tbb","version":"2023.1.0"},{"name":"threadpoolctl","version":"3.6.0"},{"name":"tomlkit","version":"0.15.1"},{"name":"torbrowser-launcher","version":"0.3.9"},{"name":"tornado","version":"6.5.10"},{"name":"traitlets","version":"5.16.1"},{"name":"trove-classifiers","version":"2026.9.21.13"},{"name":"typing-extensions","version":"4.16.0"},{"name":"urllib3","version":"2.7.0"},{"name":"uvicorn","version":"0.52.4"},{"name":"uvloop","version":"0.22.1"},{"name":"vapoursynth","version":"79"},{"name":"virtualenv","version":"21.12.1"},{"name":"wcwidth","version":"0.9.1"},{"name":"webencodings","version":"0.5.1"},{"name":"websockets","version":"16.1.1"},{"name":"wheel","version":"0.48.0"},{"name":"yt-dlp","version":"2026.8.19"},{"name":"yt-dlp-ejs","version":"0.8.0"}]
+
+2026-10-06 22:09:06.226 [info] Using Python 3.14.7 environment at: /usr
+
+2026-10-06 22:09:06.234 [info] argcomplete v3.7.2
+asgiref v3.12.1
+cachy v0.3.0
+gps v3.27.5
+graphviz v0.21
+html5lib v1.1
+httptools v0.8.0
+ipykernel v7.3.0
+jsonschema v4.26.0
+lark v1.3.1
+matplotlib v3.11.2
+nest-asyncio v1.5.9
+nftables v0.1
+pandas v2.3.3
+pip v26.2.1
+poetry-plugin-export v1.10.1
+pooch v1.9.0
+pyqt6 v6.11.0
+scikit-learn v1.9.1
+tbb v2023.1.0
+torbrowser-launcher v0.3.9
+uvicorn v0.52.4
+uvloop v0.22.1
+vapoursynth v79
+websockets v16.1.1
+wheel v0.48.0
+yt-dlp v2026.8.19
+yt-dlp-ejs v0.8.0
+
+2026-10-06 22:11:33.978 [info] Discovered manager: (Poetry) /usr/bin/poetry
+2026-10-06 22:11:33.990 [info] Discovered env: /home/abhiyan/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/bin/python
+2026-10-06 22:11:33.990 [info] Discovered env: /home/abhiyan/Sepsis-Mortality-Anaylis-Mimic-IV/.venv/bin/python

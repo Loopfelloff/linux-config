@@ -1,0 +1,4 @@
+2026-10-06 22:06:15.324 [info] Log level: Info
+2026-10-06 22:06:15.855 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-10-06 22:06:16.557 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-10-06 22:06:46.388 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for SijanBhandari17/Sepsis-Mortality-Anaylis-Mimic-IV: Error: No GitHub authentication session available.

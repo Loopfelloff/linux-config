@@ -1,0 +1,14 @@
+2026-10-14 16:56:51.317 [info] getInterpreterDetails: resource='/home/abhiyan/sarthak_learn/index.py' executable='/usr/bin/python'
+2026-10-14 16:56:51.317 [info] resolveAndUpdatePythonPath - Initial state: pythonPath='undefined', python='undefined', debugAdapterPython='undefined', debugLauncherPython='undefined', workspaceFolder='/home/abhiyan/sarthak_learn'resolvedInterpreterPath='/usr/bin/python'
+2026-10-14 16:56:51.324 [info] Resolving launch configuration with substituted variables
+2026-10-14 16:56:51.336 [info] createDebugAdapterDescriptor: request='launch' name='Launch'
+2026-10-14 16:56:51.336 [info] resolveEnvironment: new API resolving from string='/usr/bin/python'
+2026-10-14 16:56:51.427 [info] getExecutableCommand: executable='/usr/bin/python' version='3.14.7.final.0'
+2026-10-14 16:56:51.427 [info] createDebugAdapterDescriptor: python command parts='/usr/bin/python'
+2026-10-14 16:56:51.427 [info] DAP Server launched with command: /usr/bin/python /home/abhiyan/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy/adapter
+2026-10-14 16:56:51.746 [info] Received 'debugpySockets' event from debugpy.
+2026-10-14 16:56:51.751 [info] Received 'debugpySockets' event from debugpy.
+2026-10-14 16:56:51.751 [info] Received 'debugpySockets' event from debugpy.
+2026-10-14 16:56:52.339 [info] Received 'debugpySockets' event from debugpy.
+2026-10-14 16:56:52.360 [info] Received 'debugpySockets' event from debugpy.
+2026-10-14 16:56:52.364 [info] Received 'debugpySockets' event from debugpy.
