@@ -1,16 +1,300 @@
-/* Make Thunar window transparent */
-ThunarWindow,
-ThunarWindow GtkViewport,
-ThunarWindow GtkTreeView,
-ThunarWindow GtkScrolledWindow {
-    background-color: rgba(0, 0, 0, 0.0);  /* Fully transparent */
-    /* Optional: if you want some translucency: rgba(0,0,0,0.2) */
+/* ===============================
+   GRUVBOX DARK HARD - THUNAR
+   Put in ~/.config/gtk-3.0/gtk.css
+   Scoped to Thunar only (.thunar)
+================================ */
+
+@define-color bg0_h   #1d2021;
+@define-color bg0     #282828;
+@define-color bg1     #3c3836;
+@define-color bg2     #504945;
+@define-color bg3     #665c54;
+@define-color fg      #ebdbb2;
+@define-color gray    #928374;
+@define-color yellow  #fabd2f;
+@define-color orange  #fe8019;
+@define-color aqua    #8ec07c;
+@define-color red     #fb4934;
+@define-color green   #b8bb26;
+
+/* ===============================
+   Window + base
+================================ */
+
+.thunar,
+.thunar window,
+.thunar .background {
+    background-color: @bg0_h;
+    color: @fg;
 }
 
-/* Remove shadows/borders for cleaner transparency */
-ThunarWindow,
-ThunarWindow GtkScrolledWindow {
+.thunar * {
+    border-radius: 0px;
     box-shadow: none;
+    text-shadow: none;
+    outline: none;
+}
+
+/* ===============================
+   Menubar + toolbar
+================================ */
+
+.thunar menubar,
+.thunar toolbar,
+.thunar .toolbar {
+    background-color: @bg0;
+    color: @fg;
+    border: none;
+    padding: 2px;
+}
+
+.thunar menubar > menuitem:hover,
+.thunar menubar > menuitem:selected {
+    background-color: @bg1;
+    color: @yellow;
+}
+
+.thunar button,
+.thunar toolbar button {
+    background-image: none;
+    background-color: transparent;
+    color: @fg;
+    border: none;
+    padding: 4px 8px;
+}
+
+.thunar button:hover {
+    background-color: @bg1;
+    color: @yellow;
+}
+
+.thunar button:active,
+.thunar button:checked {
+    background-color: @bg2;
+    color: @yellow;
+}
+
+.thunar button:disabled {
+    color: @bg3;
+}
+
+/* ===============================
+   Location bar / path entry
+================================ */
+
+.thunar entry {
+    background-color: @bg1;
+    background-image: none;
+    color: @fg;
+    caret-color: @yellow;
+    border: none;
+    padding: 6px 8px;
+}
+
+.thunar entry:focus {
+    background-color: @bg2;
+}
+
+.thunar entry selection,
+.thunar selection {
+    background-color: @bg2;
+    color: @yellow;
+}
+
+.thunar entry placeholder {
+    color: @gray;
+}
+
+/* ===============================
+   Sidebar (places / tree)
+================================ */
+
+.thunar .sidebar,
+.thunar .sidebar treeview,
+.thunar .sidebar treeview.view {
+    background-color: @bg0;
+    color: @fg;
+}
+
+.thunar .sidebar treeview.view:hover {
+    background-color: @bg1;
+}
+
+.thunar .sidebar treeview.view:selected,
+.thunar .sidebar treeview.view:selected:focus {
+    background-color: @bg2;
+    color: @yellow;
     border: none;
 }
 
+/* ===============================
+   File view (icons + list)
+================================ */
+
+.thunar iconview,
+.thunar treeview.view,
+.thunar .view {
+    background-color: @bg0_h;
+    color: @fg;
+}
+
+.thunar iconview:hover,
+.thunar treeview.view:hover {
+    background-color: @bg0;
+}
+
+.thunar iconview:selected,
+.thunar iconview:selected:focus,
+.thunar treeview.view:selected,
+.thunar treeview.view:selected:focus,
+.thunar .view:selected {
+    background-color: @bg2;
+    color: @yellow;
+    border: none;
+}
+
+.thunar treeview header button {
+    background-color: @bg0;
+    color: @gray;
+    border: none;
+    padding: 4px 8px;
+}
+
+.thunar treeview header button:hover {
+    background-color: @bg1;
+    color: @yellow;
+}
+
+/* ===============================
+   Path bar (breadcrumb buttons)
+================================ */
+
+.thunar .path-bar button,
+.thunar pathbar button {
+    background-color: @bg1;
+    color: @fg;
+    margin: 0px 1px;
+}
+
+.thunar .path-bar button:checked,
+.thunar pathbar button:checked {
+    background-color: @bg2;
+    color: @yellow;
+}
+
+/* ===============================
+   Statusbar
+================================ */
+
+.thunar statusbar {
+    background-color: @bg0;
+    color: @gray;
+    border: none;
+    padding: 2px 6px;
+}
+
+/* ===============================
+   Menus + popovers
+================================ */
+
+.thunar menu,
+.thunar .menu,
+.thunar popover,
+.thunar popover.background,
+.thunar .popup {
+    background-color: @bg0;
+    color: @fg;
+    border: 1px solid @bg2;
+}
+
+.thunar menuitem {
+    padding: 6px 10px;
+}
+
+.thunar menuitem:hover {
+    background-color: @bg2;
+    color: @yellow;
+}
+
+.thunar menuitem:disabled {
+    color: @bg3;
+}
+
+.thunar separator {
+    background-color: @bg1;
+    min-height: 1px;
+    min-width: 1px;
+}
+
+/* ===============================
+   Scrollbars
+================================ */
+
+.thunar scrollbar {
+    background-color: @bg0_h;
+    border: none;
+}
+
+.thunar scrollbar slider {
+    background-color: @bg2;
+    min-width: 8px;
+    min-height: 8px;
+    border: none;
+}
+
+.thunar scrollbar slider:hover {
+    background-color: @bg3;
+}
+
+.thunar scrollbar slider:active {
+    background-color: @yellow;
+}
+
+/* ===============================
+   Tabs
+================================ */
+
+.thunar notebook > header {
+    background-color: @bg0;
+    border: none;
+}
+
+.thunar notebook > header tab {
+    background-color: transparent;
+    color: @gray;
+    border: none;
+    padding: 6px 12px;
+}
+
+.thunar notebook > header tab:checked {
+    background-color: @bg1;
+    color: @yellow;
+}
+
+/* ===============================
+   Dialogs (rename, properties, etc.)
+================================ */
+
+.thunar dialog,
+.thunar messagedialog,
+.thunar .dialog-vbox {
+    background-color: @bg0;
+    color: @fg;
+}
+
+.thunar progressbar trough {
+    background-color: @bg1;
+    border: none;
+}
+
+.thunar progressbar progress {
+    background-color: @yellow;
+    border: none;
+}
+
+.thunar tooltip,
+tooltip {
+    background-color: @bg1;
+    color: @fg;
+    border: 1px solid @bg2;
+}
