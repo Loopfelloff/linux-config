@@ -1,12 +1,25 @@
+/* ===============================
+   TACTICAL THEME - BLACK (ROFI)
+================================ */
+
 * {
-    background: #000000;
-    background-alt: #000000;
-    foreground: #ffffff;
-    selected: #ffffff;
-    active: #a6e3a1;
-    urgent: #f38ba8;
-    border: #ffffff;
+    bg:        #000000;
+    bg-hover:  #0d0d0d;
+    line:      #2a2a24;
+    amber:     #e0a526;
+    orange:    #e8762c;
+    cream:     #efe4c4;
+    dim:       #6f6c5c;
+    olive:     #8a9a4b;
+    teal:      #5aa9a0;
+    red:       #d9473f;
+
+    font: "JetBrainsMono Nerd Font Bold 14";
 }
+
+/* ===============================
+   Window
+================================ */
 
 window {
     transparency: "real";
@@ -14,20 +27,19 @@ window {
     anchor: center;
     fullscreen: false;
     height: 600px;
-    border-radius: 10px;
     border: 2px;
-    border-color: @border;
-    background-color: @background;
+    border-radius: 0px;
+    border-color: @line;
+    background-color: @bg;
 }
 
 mainbox {
-    background-color: @background;
-    children: [ horibox ];  /* Changed to horizontal box */
+    background-color: @bg;
+    children: [ horibox ];
     spacing: 0px;
     padding: 0px;
 }
 
-/* Horizontal container for two columns */
 horibox {
     background-color: transparent;
     children: [ image-container, vertbox ];
@@ -35,16 +47,24 @@ horibox {
     spacing: 0px;
 }
 
-/* Left side - Image container */
+/* ===============================
+   Left side - image
+================================ */
+
 image-container {
-    background-image: url("~/non_programming/images/wall.jpg" , width);  
-    border-radius: 10px 0px 0px 10px;
+    background-image: url("~/non_programming/images/wall.jpg", width);
+    border: 0px 2px 0px 0px;
+    border-color: @amber;
+    border-radius: 0px;
     padding: 0px;
 }
 
-/* Right side - Search interface */
+/* ===============================
+   Right side - search
+================================ */
+
 vertbox {
-    background-color: @background;
+    background-color: @bg;
     children: [ inputbar, listview, mode-switcher ];
     spacing: 10px;
     padding: 10px;
@@ -52,31 +72,37 @@ vertbox {
 }
 
 inputbar {
-    background-color: @background-alt;
-    text-color: @foreground;
-    border-radius: 5px;
-    padding: 8px;
-    children: [entry]; /* [prompt, entry] entry is the text you search, prompt is the category of search like application, run etc */
+    background-color: @bg-hover;
+    text-color: @cream;
+    border: 0px 0px 0px 3px;
+    border-color: @amber;
+    border-radius: 0px;
+    padding: 10px;
+    children: [ entry ];
 }
 
 prompt {
     background-color: transparent;
-    text-color: @selected;
+    text-color: @amber;
     padding: 0px 10px 0px 0px;
 }
 
 entry {
     background-color: transparent;
-    text-color: @foreground;
+    text-color: @cream;
     placeholder: "Search...";
-    placeholder-color: #6c7086;
+    placeholder-color: @dim;
 }
+
+/* ===============================
+   List
+================================ */
 
 listview {
     background-color: transparent;
     columns: 1;
     lines: 8;
-    spacing: 5px;
+    spacing: 4px;
     cycle: true;
     dynamic: true;
     layout: vertical;
@@ -84,9 +110,11 @@ listview {
 
 element {
     background-color: transparent;
-    text-color: @foreground;
+    text-color: @dim;
     orientation: horizontal;
-    border-radius: 5px;
+    border: 0px 0px 0px 3px;
+    border-color: transparent;
+    border-radius: 0px;
     padding: 8px;
 }
 
@@ -102,37 +130,68 @@ element-text {
     vertical-align: 0.5;
 }
 
-element selected {
-    background-color: @selected;
-    text-color: @background;
+element normal.normal,
+element alternate.normal {
+    text-color: @cream;
 }
+
+element selected {
+    background-color: @bg-hover;
+    text-color: @amber;
+    border-color: @amber;
+}
+
+/* ===============================
+   States
+================================ */
 
 element normal.urgent,
 element alternate.urgent {
-    background-color: @urgent;
-    text-color: @background;
+    background-color: transparent;
+    text-color: @red;
 }
 
 element normal.active,
 element alternate.active {
-    background-color: @active;
-    text-color: @background;
+    background-color: transparent;
+    text-color: @olive;
 }
 
+element selected.urgent {
+    background-color: @red;
+    text-color: @bg;
+    border-color: @red;
+}
+
+element selected.active {
+    background-color: @olive;
+    text-color: @bg;
+    border-color: @olive;
+}
+
+/* ===============================
+   Mode switcher
+================================ */
+
 mode-switcher {
-    background-color: @background-alt;
-    border-radius: 5px;
-    padding: 5px;
+    background-color: @bg;
+    border: 1px;
+    border-color: @line;
+    border-radius: 0px;
+    padding: 4px;
 }
 
 button {
     background-color: transparent;
-    text-color: @foreground;
+    text-color: @dim;
     padding: 8px;
-    border-radius: 5px;
+    border: 0px 0px 2px 0px;
+    border-color: transparent;
+    border-radius: 0px;
 }
 
 button selected {
-    background-color: @selected;
-    text-color: @background;
+    background-color: @bg;
+    text-color: @amber;
+    border-color: @amber;
 }
